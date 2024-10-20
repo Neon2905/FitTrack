@@ -1,0 +1,272 @@
+G:\FitTrack\bin\Debug\Database.mdf
+G:\FitTrack\bin\Debug\Database_log.ldf
+G:\FitTrack\bin\Debug\FitTrack.exe.config
+G:\FitTrack\bin\Debug\FitTrack.exe
+G:\FitTrack\bin\Debug\FitTrack.pdb
+G:\FitTrack\bin\Debug\ControlzEx.dll
+G:\FitTrack\bin\Debug\FontAwesome.WPF.dll
+G:\FitTrack\bin\Debug\LiveCharts.dll
+G:\FitTrack\bin\Debug\LiveCharts.Wpf.dll
+G:\FitTrack\bin\Debug\MahApps.Metro.dll
+G:\FitTrack\bin\Debug\MaterialDesignColors.dll
+G:\FitTrack\bin\Debug\MaterialDesignThemes.Wpf.dll
+G:\FitTrack\bin\Debug\Microsoft.Xaml.Behaviors.dll
+G:\FitTrack\bin\Debug\ControlzEx.pdb
+G:\FitTrack\bin\Debug\ControlzEx.xml
+G:\FitTrack\bin\Debug\FontAwesome.WPF.xml
+G:\FitTrack\bin\Debug\LiveCharts.pdb
+G:\FitTrack\bin\Debug\LiveCharts.xml
+G:\FitTrack\bin\Debug\LiveCharts.Wpf.pdb
+G:\FitTrack\bin\Debug\LiveCharts.Wpf.xml
+G:\FitTrack\bin\Debug\MahApps.Metro.pdb
+G:\FitTrack\bin\Debug\MahApps.Metro.xml
+G:\FitTrack\bin\Debug\MaterialDesignColors.pdb
+G:\FitTrack\bin\Debug\MaterialDesignThemes.Wpf.pdb
+G:\FitTrack\bin\Debug\MaterialDesignThemes.Wpf.xml
+G:\FitTrack\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+G:\FitTrack\bin\Debug\Microsoft.Xaml.Behaviors.xml
+G:\FitTrack\bin\Debug\de\MahApps.Metro.resources.dll
+G:\FitTrack\obj\Debug\FitTrack.csproj.AssemblyReference.cache
+G:\FitTrack\obj\Debug\Styles\Button.baml
+G:\FitTrack\obj\Debug\Styles\DataGrid.baml
+G:\FitTrack\obj\Debug\Styles\MenuButton.baml
+G:\FitTrack\obj\Debug\MainWindow.g.cs
+G:\FitTrack\obj\Debug\SignInWindow.g.cs
+G:\FitTrack\obj\Debug\View\ChallengeView.g.cs
+G:\FitTrack\obj\Debug\View\Home.g.cs
+G:\FitTrack\obj\Debug\View\Profile.g.cs
+G:\FitTrack\obj\Debug\View\Progress.g.cs
+G:\FitTrack\obj\Debug\View\Setting.g.cs
+G:\FitTrack\obj\Debug\View\StartNewChallenge.g.cs
+G:\FitTrack\obj\Debug\App.g.cs
+G:\FitTrack\obj\Debug\FitTrack_Content.g.cs
+G:\FitTrack\obj\Debug\GeneratedInternalTypeHelper.g.cs
+G:\FitTrack\obj\Debug\FitTrack_MarkupCompile.cache
+G:\FitTrack\obj\Debug\FitTrack_MarkupCompile.lref
+G:\FitTrack\obj\Debug\App.baml
+G:\FitTrack\obj\Debug\MainWindow.baml
+G:\FitTrack\obj\Debug\SignInWindow.baml
+G:\FitTrack\obj\Debug\Core\DataTemplate.baml
+G:\FitTrack\obj\Debug\View\ChallengeView.baml
+G:\FitTrack\obj\Debug\View\Home.baml
+G:\FitTrack\obj\Debug\View\Profile.baml
+G:\FitTrack\obj\Debug\View\Progress.baml
+G:\FitTrack\obj\Debug\View\Setting.baml
+G:\FitTrack\obj\Debug\View\StartNewChallenge.baml
+G:\FitTrack\obj\Debug\FitTrack.g.resources
+G:\FitTrack\obj\Debug\FitTrack.Properties.Resources.resources
+G:\FitTrack\obj\Debug\FitTrack.csproj.GenerateResource.cache
+G:\FitTrack\obj\Debug\FitTrack.csproj.CoreCompileInputs.cache
+G:\FitTrack\obj\Debug\FitTrack.csproj.Up2Date
+G:\FitTrack\obj\Debug\FitTrack.exe
+G:\FitTrack\obj\Debug\FitTrack.pdb
+H:\FitTrack\obj\Debug\FitTrack.csproj.AssemblyReference.cache
+H:\FitTrack\obj\Debug\Styles\BlankButton.baml
+H:\FitTrack\obj\Debug\Styles\Button.baml
+H:\FitTrack\obj\Debug\Styles\DataGrid.baml
+H:\FitTrack\obj\Debug\Styles\MenuButton.baml
+H:\FitTrack\obj\Debug\Styles\SettingButton.baml
+H:\FitTrack\obj\Debug\Styles\ToggleButton.baml
+H:\FitTrack\obj\Debug\Components\NumberBox.g.cs
+H:\FitTrack\obj\Debug\Components\PasswordBox.g.cs
+H:\FitTrack\obj\Debug\Components\TextBox.g.cs
+H:\FitTrack\obj\Debug\Dialogs\RequestPasswordDialog.g.cs
+H:\FitTrack\obj\Debug\MainWindow.g.cs
+H:\FitTrack\obj\Debug\SignInWindow.g.cs
+H:\FitTrack\obj\Debug\View\ChallengeView.g.cs
+H:\FitTrack\obj\Debug\View\ChangePassword.g.cs
+H:\FitTrack\obj\Debug\View\ChangeUsername.g.cs
+H:\FitTrack\obj\Debug\View\Home.g.cs
+H:\FitTrack\obj\Debug\View\Profile.g.cs
+H:\FitTrack\obj\Debug\View\Progress.g.cs
+H:\FitTrack\obj\Debug\View\Setting.g.cs
+H:\FitTrack\obj\Debug\View\StartNewChallenge.g.cs
+H:\FitTrack\obj\Debug\App.g.cs
+H:\FitTrack\obj\Debug\FitTrack_Content.g.cs
+H:\FitTrack\obj\Debug\GeneratedInternalTypeHelper.g.cs
+H:\FitTrack\obj\Debug\FitTrack_MarkupCompile.cache
+H:\FitTrack\obj\Debug\FitTrack_MarkupCompile.lref
+H:\FitTrack\bin\Debug\FitTrack.exe.config
+H:\FitTrack\bin\Debug\FitTrack.exe
+H:\FitTrack\bin\Debug\FitTrack.pdb
+H:\FitTrack\bin\Debug\ControlzEx.dll
+H:\FitTrack\bin\Debug\FontAwesome.WPF.dll
+H:\FitTrack\bin\Debug\LiveCharts.dll
+H:\FitTrack\bin\Debug\LiveCharts.Wpf.dll
+H:\FitTrack\bin\Debug\MahApps.Metro.dll
+H:\FitTrack\bin\Debug\MaterialDesignColors.dll
+H:\FitTrack\bin\Debug\MaterialDesignThemes.MahApps.dll
+H:\FitTrack\bin\Debug\MaterialDesignThemes.Wpf.dll
+H:\FitTrack\bin\Debug\Microsoft.Xaml.Behaviors.dll
+H:\FitTrack\bin\Debug\ControlzEx.pdb
+H:\FitTrack\bin\Debug\ControlzEx.xml
+H:\FitTrack\bin\Debug\FontAwesome.WPF.xml
+H:\FitTrack\bin\Debug\LiveCharts.pdb
+H:\FitTrack\bin\Debug\LiveCharts.xml
+H:\FitTrack\bin\Debug\LiveCharts.Wpf.pdb
+H:\FitTrack\bin\Debug\LiveCharts.Wpf.xml
+H:\FitTrack\bin\Debug\MahApps.Metro.pdb
+H:\FitTrack\bin\Debug\MahApps.Metro.xml
+H:\FitTrack\bin\Debug\MaterialDesignColors.pdb
+H:\FitTrack\bin\Debug\MaterialDesignThemes.MahApps.pdb
+H:\FitTrack\bin\Debug\MaterialDesignThemes.Wpf.pdb
+H:\FitTrack\bin\Debug\MaterialDesignThemes.Wpf.xml
+H:\FitTrack\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+H:\FitTrack\bin\Debug\Microsoft.Xaml.Behaviors.xml
+H:\FitTrack\bin\Debug\de\MahApps.Metro.resources.dll
+H:\FitTrack\obj\Debug\App.baml
+H:\FitTrack\obj\Debug\Components\NumberBox.baml
+H:\FitTrack\obj\Debug\Components\PasswordBox.baml
+H:\FitTrack\obj\Debug\Components\TextBox.baml
+H:\FitTrack\obj\Debug\Dialogs\RequestPasswordDialog.baml
+H:\FitTrack\obj\Debug\MainWindow.baml
+H:\FitTrack\obj\Debug\SignInWindow.baml
+H:\FitTrack\obj\Debug\Core\DataTemplate.baml
+H:\FitTrack\obj\Debug\View\ChallengeView.baml
+H:\FitTrack\obj\Debug\View\ChangePassword.baml
+H:\FitTrack\obj\Debug\View\ChangeUsername.baml
+H:\FitTrack\obj\Debug\View\Home.baml
+H:\FitTrack\obj\Debug\View\Profile.baml
+H:\FitTrack\obj\Debug\View\Progress.baml
+H:\FitTrack\obj\Debug\View\Setting.baml
+H:\FitTrack\obj\Debug\View\StartNewChallenge.baml
+H:\FitTrack\obj\Debug\FitTrack.g.resources
+H:\FitTrack\obj\Debug\FitTrack.Properties.Resources.resources
+H:\FitTrack\obj\Debug\FitTrack.csproj.GenerateResource.cache
+H:\FitTrack\obj\Debug\FitTrack.csproj.CoreCompileInputs.cache
+H:\FitTrack\obj\Debug\FitTrack.csproj.Up2Date
+H:\FitTrack\obj\Debug\FitTrack.exe
+H:\FitTrack\obj\Debug\FitTrack.pdb
+H:\FitTrack\obj\Debug\Dialogs\ConfirmationDialog.g.cs
+H:\FitTrack\obj\Debug\Dialogs\ConfirmationDialog.baml
+H:\FitTrack\obj\Debug\Dialogs\MessageDialog.g.cs
+H:\FitTrack\obj\Debug\Dialogs\MessageDialog.baml
+H:\FitTrack\obj\Debug\Styles\RoundedButton.baml
+H:\FitTrack\obj\Debug\Styles\ElementTemplate.baml
+H:\FitTrack\obj\Debug\Dialogs\RequestUserTextInputDialog.g.cs
+H:\FitTrack\obj\Debug\Dialogs\RequestUserTextInputDialog.baml
+G:\FitTrack\obj\Debug\Styles\BlankButton.baml
+G:\FitTrack\obj\Debug\Styles\CheckBox.baml
+G:\FitTrack\obj\Debug\Styles\ElementTemplate.baml
+G:\FitTrack\obj\Debug\Styles\RoundedButton.baml
+G:\FitTrack\obj\Debug\Styles\SettingButton.baml
+G:\FitTrack\obj\Debug\Styles\ToggleButton.baml
+G:\FitTrack\obj\Debug\Components\NumberBox.g.cs
+G:\FitTrack\obj\Debug\Components\PasswordBox.g.cs
+G:\FitTrack\obj\Debug\Components\TextBox.g.cs
+G:\FitTrack\obj\Debug\Dialogs\ConfirmationDialog.g.cs
+G:\FitTrack\obj\Debug\Dialogs\MessageDialog.g.cs
+G:\FitTrack\obj\Debug\Dialogs\RequestPasswordDialog.g.cs
+G:\FitTrack\obj\Debug\Dialogs\RequestUserTextInputDialog.g.cs
+G:\FitTrack\obj\Debug\View\ChangePassword.g.cs
+G:\FitTrack\obj\Debug\View\ChangeUsername.g.cs
+G:\FitTrack\bin\Debug\MaterialDesignThemes.MahApps.dll
+G:\FitTrack\bin\Debug\MaterialDesignThemes.MahApps.pdb
+G:\FitTrack\obj\Debug\Components\NumberBox.baml
+G:\FitTrack\obj\Debug\Components\PasswordBox.baml
+G:\FitTrack\obj\Debug\Components\TextBox.baml
+G:\FitTrack\obj\Debug\Dialogs\ConfirmationDialog.baml
+G:\FitTrack\obj\Debug\Dialogs\MessageDialog.baml
+G:\FitTrack\obj\Debug\Dialogs\RequestPasswordDialog.baml
+G:\FitTrack\obj\Debug\Dialogs\RequestUserTextInputDialog.baml
+G:\FitTrack\obj\Debug\View\ChangePassword.baml
+G:\FitTrack\obj\Debug\View\ChangeUsername.baml
+G:\FitTrack\obj\Debug\View\AccountLog.g.cs
+G:\FitTrack\obj\Debug\View\AccountLog.baml
+H:\FitTrack\bin\Debug\Database\Database.mdf
+H:\FitTrack\bin\Debug\Database\Database_log.ldf
+H:\FitTrack\obj\Debug\View\SigninHistory.g.cs
+H:\FitTrack\obj\Debug\View\SigninHistory.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Debug\Database\Database.mdf
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Debug\Database\Database_log.ldf
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Debug\FitTrack.exe.config
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Debug\FitTrack.exe.manifest
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Debug\FitTrack.application
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Debug\FitTrack.exe
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Debug\FitTrack.pdb
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Debug\ControlzEx.dll
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Debug\FontAwesome.WPF.dll
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Debug\LiveCharts.dll
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Debug\LiveCharts.Wpf.dll
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Debug\MahApps.Metro.dll
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Debug\MaterialDesignColors.dll
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Debug\MaterialDesignThemes.MahApps.dll
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Debug\MaterialDesignThemes.Wpf.dll
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Debug\Microsoft.Xaml.Behaviors.dll
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Debug\ControlzEx.pdb
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Debug\ControlzEx.xml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Debug\FontAwesome.WPF.xml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Debug\LiveCharts.pdb
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Debug\LiveCharts.xml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Debug\LiveCharts.Wpf.pdb
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Debug\LiveCharts.Wpf.xml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Debug\MahApps.Metro.pdb
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Debug\MahApps.Metro.xml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Debug\MaterialDesignColors.pdb
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Debug\MaterialDesignThemes.MahApps.pdb
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Debug\MaterialDesignThemes.Wpf.pdb
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Debug\MaterialDesignThemes.Wpf.xml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Debug\Microsoft.Xaml.Behaviors.xml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Debug\de\MahApps.Metro.resources.dll
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\FitTrack.csproj.AssemblyReference.cache
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\Styles\BlankButton.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\Styles\Button.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\Styles\DataGrid.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\Styles\ElementTemplate.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\Styles\MenuButton.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\Styles\RoundedButton.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\Styles\SettingButton.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\Styles\ToggleButton.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\Components\NumberBox.g.cs
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\Components\PasswordBox.g.cs
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\Components\TextBox.g.cs
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\Dialogs\ConfirmationDialog.g.cs
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\Dialogs\MessageDialog.g.cs
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\Dialogs\RequestPasswordDialog.g.cs
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\Dialogs\RequestUserTextInputDialog.g.cs
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\MainWindow.g.cs
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\SignInWindow.g.cs
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\View\SignInHistory.g.cs
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\View\ChallengeView.g.cs
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\View\ChangePassword.g.cs
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\View\ChangeUsername.g.cs
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\View\Home.g.cs
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\View\Profile.g.cs
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\View\Progress.g.cs
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\View\Setting.g.cs
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\View\StartNewChallenge.g.cs
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\App.g.cs
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\FitTrack_Content.g.cs
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\GeneratedInternalTypeHelper.g.cs
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\FitTrack_MarkupCompile.cache
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\FitTrack_MarkupCompile.lref
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\App.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\Components\NumberBox.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\Components\PasswordBox.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\Components\TextBox.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\Dialogs\ConfirmationDialog.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\Dialogs\MessageDialog.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\Dialogs\RequestPasswordDialog.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\Dialogs\RequestUserTextInputDialog.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\MainWindow.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\SignInWindow.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\Core\DataTemplate.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\View\SignInHistory.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\View\ChallengeView.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\View\ChangePassword.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\View\ChangeUsername.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\View\Home.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\View\Profile.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\View\Progress.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\View\Setting.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\View\StartNewChallenge.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\FitTrack.g.resources
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\FitTrack.Properties.Resources.resources
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\FitTrack.csproj.GenerateResource.cache
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\FitTrack.csproj.CoreCompileInputs.cache
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\FitTrack.exe.manifest
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\FitTrack.application
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\FitTrack.csproj.Up2Date
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\FitTrack.exe
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Debug\FitTrack.pdb

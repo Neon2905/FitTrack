@@ -1,0 +1,60 @@
+﻿<UserControl x:Class="FitTrack.View.SignInHistory"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:FitTrack.View"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="700">
+    <Grid>
+
+        <!--Back Button-->
+        <Button Width="50" Height="50" 
+                    Style="{StaticResource BlankButton}"
+                    VerticalAlignment="Top" 
+                    HorizontalAlignment="Left"
+                    Command="{Binding NavigateSettingCommand}"
+                    Margin="5">
+            <materialDesign:PackIcon Kind="ChevronLeft"
+                             Width="50" Height="50"
+                             Foreground="#FF515151"/>
+        </Button>
+        
+        <TextBlock Text="Login History"
+                       Foreground="AliceBlue"
+                       FontSize="25"
+                       FontWeight="Bold"
+                       Height="40"
+                       VerticalAlignment="Top"
+                       HorizontalAlignment="Center"
+                       Margin="20,10,0,0"/>
+        <DataGrid 
+            ItemsSource="{Binding SignInSessions}"
+            Style="{StaticResource DataGridStyle}"
+            IsReadOnly="True"
+            RowHeaderWidth="0"
+            AutoGenerateColumns="False"
+            Background="Transparent" 
+            Margin="3,65,3,3" 
+            VerticalScrollBarVisibility="Hidden">
+
+            <DataGrid.Columns>
+                <DataGridTextColumn 
+                    Header="Device" Binding="{Binding Device.DeviceName}" Width="200"
+                    HeaderStyle="{StaticResource DataGridHeaderStyle}" 
+                    CellStyle="{StaticResource DataGridCellStyle}"/>
+                <DataGridTextColumn 
+                    Header="OS Information" Binding="{Binding Device.OSInformation}" Width="*" 
+                    HeaderStyle="{StaticResource DataGridHeaderStyle}"
+                    CellStyle="{StaticResource DataGridCellStyle}"/>
+                <DataGridTextColumn 
+                    Header="Time" Binding="{Binding SessionTimeLocal}" 
+                    Width="150" 
+                    HeaderStyle="{StaticResource DataGridHeaderStyle}"
+                    CellStyle="{StaticResource DataGridCellStyle}"/>
+            </DataGrid.Columns>
+
+        </DataGrid>
+    </Grid>
+</UserControl>

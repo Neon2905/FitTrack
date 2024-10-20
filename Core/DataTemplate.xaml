@@ -1,0 +1,51 @@
+﻿<ResourceDictionary  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                     xmlns:vm="clr-namespace:FitTrack.ViewModel"
+                     xmlns:view="clr-namespace:FitTrack.View"
+                     xmlns:local="clr-namespace:FitTrack">
+
+    <DataTemplate DataType="{x:Type vm:MainWindowVM}">
+        <local:MainWindow/>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:SignInWindowVM}">
+        <local:SignInWindow/>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:HomeVM}">
+        <view:Home/>
+    </DataTemplate>
+    
+    <DataTemplate DataType="{x:Type vm:ChallengeVM}">
+        <view:ChallengeView/>
+    </DataTemplate>
+    
+    <DataTemplate DataType="{x:Type vm:StartNewChallengeVM}">
+        <view:StartNewChallenge/>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:ProfileVM}">
+        <view:Profile/>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:ProgressVM}">
+        <view:Progress/>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:SettingVM}">
+        <view:Setting/>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:ChangePasswordVM}">
+        <view:ChangePassword/>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:ChangeUsernameVM}">
+        <view:ChangeUsername/>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:SignInHistoryVM}">
+        <view:SignInHistory/>
+    </DataTemplate>
+
+</ResourceDictionary>

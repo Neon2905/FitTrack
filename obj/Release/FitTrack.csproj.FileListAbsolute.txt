@@ -1,0 +1,186 @@
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Release\Database\Database.mdf
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Release\Database\Database_log.ldf
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Release\FitTrack.exe.config
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Release\FitTrack.exe.manifest
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Release\FitTrack.application
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Release\FitTrack.exe
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Release\FitTrack.pdb
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Release\ControlzEx.dll
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Release\FontAwesome.WPF.dll
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Release\LiveCharts.dll
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Release\LiveCharts.Wpf.dll
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Release\MahApps.Metro.dll
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Release\MaterialDesignColors.dll
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Release\MaterialDesignThemes.MahApps.dll
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Release\MaterialDesignThemes.Wpf.dll
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Release\Microsoft.Xaml.Behaviors.dll
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Release\ControlzEx.pdb
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Release\ControlzEx.xml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Release\FontAwesome.WPF.xml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Release\LiveCharts.pdb
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Release\LiveCharts.xml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Release\LiveCharts.Wpf.pdb
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Release\LiveCharts.Wpf.xml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Release\MahApps.Metro.pdb
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Release\MahApps.Metro.xml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Release\MaterialDesignColors.pdb
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Release\MaterialDesignThemes.MahApps.pdb
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Release\MaterialDesignThemes.Wpf.pdb
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Release\MaterialDesignThemes.Wpf.xml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Release\Microsoft.Xaml.Behaviors.pdb
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Release\Microsoft.Xaml.Behaviors.xml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\bin\Release\de\MahApps.Metro.resources.dll
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\FitTrack.csproj.AssemblyReference.cache
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\Styles\BlankButton.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\Styles\Button.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\Styles\DataGrid.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\Styles\ElementTemplate.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\Styles\MenuButton.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\Styles\RoundedButton.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\Styles\SettingButton.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\Styles\ToggleButton.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\Components\NumberBox.g.cs
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\Components\PasswordBox.g.cs
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\Components\TextBox.g.cs
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\Dialogs\ConfirmationDialog.g.cs
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\Dialogs\MessageDialog.g.cs
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\Dialogs\RequestPasswordDialog.g.cs
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\Dialogs\RequestUserTextInputDialog.g.cs
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\MainWindow.g.cs
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\SignInWindow.g.cs
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\View\SignInHistory.g.cs
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\View\ChallengeView.g.cs
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\View\ChangePassword.g.cs
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\View\ChangeUsername.g.cs
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\View\Home.g.cs
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\View\Profile.g.cs
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\View\Progress.g.cs
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\View\Setting.g.cs
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\View\StartNewChallenge.g.cs
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\App.g.cs
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\FitTrack_Content.g.cs
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\GeneratedInternalTypeHelper.g.cs
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\FitTrack_MarkupCompile.cache
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\FitTrack_MarkupCompile.lref
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\App.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\Components\NumberBox.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\Components\PasswordBox.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\Components\TextBox.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\Dialogs\ConfirmationDialog.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\Dialogs\MessageDialog.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\Dialogs\RequestPasswordDialog.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\Dialogs\RequestUserTextInputDialog.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\MainWindow.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\SignInWindow.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\Core\DataTemplate.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\View\SignInHistory.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\View\ChallengeView.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\View\ChangePassword.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\View\ChangeUsername.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\View\Home.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\View\Profile.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\View\Progress.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\View\Setting.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\View\StartNewChallenge.baml
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\FitTrack.g.resources
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\FitTrack.Properties.Resources.resources
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\FitTrack.csproj.GenerateResource.cache
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\FitTrack.csproj.CoreCompileInputs.cache
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\FitTrack.exe.manifest
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\FitTrack.application
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\FitTrack.csproj.Up2Date
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\FitTrack.exe
+H:\Assignments_NMA\Thant_Pyae_Shine_DDOOCP_Assignment_Spring_2024\Source Code\FitTrack\obj\Release\FitTrack.pdb
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\FitTrack.csproj.AssemblyReference.cache
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\Styles\BlankButton.baml
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\Styles\Button.baml
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\Styles\DataGrid.baml
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\Styles\ElementTemplate.baml
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\Styles\MenuButton.baml
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\Styles\RoundedButton.baml
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\Styles\SettingButton.baml
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\Styles\ToggleButton.baml
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\Components\NumberBox.g.cs
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\Components\PasswordBox.g.cs
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\Components\TextBox.g.cs
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\Dialogs\ConfirmationDialog.g.cs
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\Dialogs\MessageDialog.g.cs
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\Dialogs\RequestPasswordDialog.g.cs
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\Dialogs\RequestUserTextInputDialog.g.cs
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\MainWindow.g.cs
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\SignInWindow.g.cs
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\View\SignInHistory.g.cs
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\View\ChallengeView.g.cs
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\View\ChangePassword.g.cs
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\View\ChangeUsername.g.cs
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\View\Home.g.cs
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\View\Profile.g.cs
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\View\Progress.g.cs
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\View\Setting.g.cs
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\View\StartNewChallenge.g.cs
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\App.g.cs
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\FitTrack_Content.g.cs
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\GeneratedInternalTypeHelper.g.cs
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\FitTrack_MarkupCompile.cache
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\FitTrack_MarkupCompile.lref
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\FitTrack.exe
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\FitTrack.pdb
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\bin\Release\Database\Database.mdf
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\bin\Release\Database\Database_log.ldf
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\bin\Release\FitTrack.exe.config
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\bin\Release\FitTrack.exe.manifest
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\bin\Release\FitTrack.application
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\bin\Release\FitTrack.exe
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\bin\Release\FitTrack.pdb
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\bin\Release\ControlzEx.dll
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\bin\Release\FontAwesome.WPF.dll
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\bin\Release\LiveCharts.dll
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\bin\Release\LiveCharts.Wpf.dll
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\bin\Release\MahApps.Metro.dll
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\bin\Release\MaterialDesignColors.dll
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\bin\Release\MaterialDesignThemes.MahApps.dll
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\bin\Release\MaterialDesignThemes.Wpf.dll
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\bin\Release\Microsoft.Xaml.Behaviors.dll
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\bin\Release\ControlzEx.pdb
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\bin\Release\ControlzEx.xml
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\bin\Release\FontAwesome.WPF.xml
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\bin\Release\LiveCharts.pdb
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\bin\Release\LiveCharts.xml
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\bin\Release\LiveCharts.Wpf.pdb
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\bin\Release\LiveCharts.Wpf.xml
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\bin\Release\MahApps.Metro.pdb
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\bin\Release\MahApps.Metro.xml
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\bin\Release\MaterialDesignColors.pdb
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\bin\Release\MaterialDesignThemes.MahApps.pdb
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\bin\Release\MaterialDesignThemes.Wpf.pdb
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\bin\Release\MaterialDesignThemes.Wpf.xml
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\bin\Release\Microsoft.Xaml.Behaviors.pdb
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\bin\Release\Microsoft.Xaml.Behaviors.xml
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\bin\Release\de\MahApps.Metro.resources.dll
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\App.baml
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\Components\NumberBox.baml
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\Components\PasswordBox.baml
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\Components\TextBox.baml
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\Dialogs\ConfirmationDialog.baml
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\Dialogs\MessageDialog.baml
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\Dialogs\RequestPasswordDialog.baml
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\Dialogs\RequestUserTextInputDialog.baml
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\MainWindow.baml
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\SignInWindow.baml
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\Core\DataTemplate.baml
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\View\SignInHistory.baml
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\View\ChallengeView.baml
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\View\ChangePassword.baml
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\View\ChangeUsername.baml
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\View\Home.baml
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\View\Profile.baml
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\View\Progress.baml
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\View\Setting.baml
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\View\StartNewChallenge.baml
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\FitTrack.g.resources
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\FitTrack.Properties.Resources.resources
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\FitTrack.csproj.GenerateResource.cache
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\FitTrack.csproj.CoreCompileInputs.cache
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\FitTrack.exe.manifest
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\FitTrack.application
+D:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\FitTrack.csproj.Up2Date
