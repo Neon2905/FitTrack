@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-H:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\
+G:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\
 FitTrack
 none
 false
 TRACE
-H:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\App.xaml
+G:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\App.xaml
 271030501459
 21911399624
 72-2000528475
-27-765152686
+27-2046174653
 Components\NumberBox.xaml;Components\PasswordBox.xaml;Components\TextBox.xaml;Dialogs\ConfirmationDialog.xaml;Dialogs\MessageDialog.xaml;Dialogs\RequestPasswordDialog.xaml;Dialogs\RequestUserTextInputDialog.xaml;MainWindow.xaml;SignInWindow.xaml;Core\DataTemplate.xaml;Styles\BlankButton.xaml;Styles\Button.xaml;Styles\DataGrid.xaml;Styles\ElementTemplate.xaml;Styles\MenuButton.xaml;Styles\RoundedButton.xaml;Styles\SettingButton.xaml;Styles\ToggleButton.xaml;View\SignInHistory.xaml;View\ChallengeView.xaml;View\ChangePassword.xaml;View\ChangeUsername.xaml;View\Home.xaml;View\Profile.xaml;View\Progress.xaml;View\Setting.xaml;View\StartNewChallenge.xaml;
 
-False
+True
 
