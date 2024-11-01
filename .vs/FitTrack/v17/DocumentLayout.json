@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "G:\\Assignments_NMA\\Thant_Pyae_Shine_Assignments_Collection\\Designing and Developing Object-Oriented Computer Programs\\Source Code\\FitTrack\\",
+  "WorkspaceRootPath": "G:\\Assignments_NMA\\Designing and Developing Object-Oriented Computer Programs\\Source Code\\FitTrack\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3E8A51E5-53A0-4AD2-B306-603299AF9D35}|FitTrack.csproj|g:\\assignments_nma\\thant_pyae_shine_assignments_collection\\designing and developing object-oriented computer programs\\source code\\fittrack\\testapprunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E8A51E5-53A0-4AD2-B306-603299AF9D35}|FitTrack.csproj|g:\\assignments_nma\\designing and developing object-oriented computer programs\\source code\\fittrack\\testapprunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E8A51E5-53A0-4AD2-B306-603299AF9D35}|FitTrack.csproj|solutionrelative:testapprunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "TestAppRunner.cs",
-              "DocumentMoniker": "G:\\Assignments_NMA\\Thant_Pyae_Shine_Assignments_Collection\\Designing and Developing Object-Oriented Computer Programs\\Source Code\\FitTrack\\TestAppRunner.cs",
+              "DocumentMoniker": "G:\\Assignments_NMA\\Designing and Developing Object-Oriented Computer Programs\\Source Code\\FitTrack\\TestAppRunner.cs",
               "RelativeDocumentMoniker": "TestAppRunner.cs",
-              "ToolTip": "G:\\Assignments_NMA\\Thant_Pyae_Shine_Assignments_Collection\\Designing and Developing Object-Oriented Computer Programs\\Source Code\\FitTrack\\TestAppRunner.cs",
+              "ToolTip": "G:\\Assignments_NMA\\Designing and Developing Object-Oriented Computer Programs\\Source Code\\FitTrack\\TestAppRunner.cs",
               "RelativeToolTip": "TestAppRunner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T20:54:23.785Z",
               "EditorCaption": ""

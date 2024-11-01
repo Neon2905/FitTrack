@@ -62,7 +62,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>5qrKiZCaE42Z8g4gQyXo2eVaesoJS9wDmSvQjlmovrk=</dsig:DigestValue>
+        <dsig:DigestValue>ouGeECxdTh/iUwP8y/kmPpPpqUywtvkLcTJtNANHG40=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -180,7 +180,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>MIk7sjGZ2Fnc8lr7oPQLnZATrj+ObMdWy945AdbW2c8=</dsig:DigestValue>
+      <dsig:DigestValue>hExZnW7X6dTZ5VOGpZLTKNeTQGaDf4Krl+PWYhLMGBY=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Database\Database_log.ldf" size="8388608" writeableType="applicationData">
@@ -189,7 +189,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>1jmIh1y0p8HjpooytamBY7oxHPd0BPkWngKHBddzf1g=</dsig:DigestValue>
+      <dsig:DigestValue>zffkdRIRDjTvIFJUs0KT7YBZl/ShUzXfzBozCAqa69o=</dsig:DigestValue>
     </hash>
   </file>
   <file name="FitTrack.exe.config" size="1505">

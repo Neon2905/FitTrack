@@ -1,9 +1,11 @@
-﻿namespace FitTrack
+﻿using FitTrack.Core;
+
+namespace FitTrack
 {
     /// <summary>
     /// Provides methods to simulate application startup and exit events for testing purposes.
     /// </summary>
-    class TestAppRunner
+    static class TestAppRunner
     {
         /// <summary>
         /// Simulates the application startup process for testing.
