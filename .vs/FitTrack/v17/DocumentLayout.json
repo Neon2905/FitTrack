@@ -1,12 +1,120 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "G:\\Assignments_NMA\\Designing and Developing Object-Oriented Computer Programs\\Source Code\\FitTrack\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8A51E5-53A0-4AD2-B306-603299AF9D35}|FitTrack.csproj|g:\\assignments_nma\\designing and developing object-oriented computer programs\\source code\\fittrack\\core\\rules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8A51E5-53A0-4AD2-B306-603299AF9D35}|FitTrack.csproj|solutionrelative:core\\rules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8A51E5-53A0-4AD2-B306-603299AF9D35}|FitTrack.csproj|g:\\assignments_nma\\designing and developing object-oriented computer programs\\source code\\fittrack\\core\\errormessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8A51E5-53A0-4AD2-B306-603299AF9D35}|FitTrack.csproj|solutionrelative:core\\errormessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8A51E5-53A0-4AD2-B306-603299AF9D35}|FitTrack.csproj|g:\\assignments_nma\\designing and developing object-oriented computer programs\\source code\\fittrack\\core\\closewindowrelaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8A51E5-53A0-4AD2-B306-603299AF9D35}|FitTrack.csproj|solutionrelative:core\\closewindowrelaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8A51E5-53A0-4AD2-B306-603299AF9D35}|FitTrack.csproj|g:\\assignments_nma\\designing and developing object-oriented computer programs\\source code\\fittrack\\core\\changeviewmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8A51E5-53A0-4AD2-B306-603299AF9D35}|FitTrack.csproj|solutionrelative:core\\changeviewmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8A51E5-53A0-4AD2-B306-603299AF9D35}|FitTrack.csproj|g:\\assignments_nma\\designing and developing object-oriented computer programs\\source code\\fittrack\\components\\numberbox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3E8A51E5-53A0-4AD2-B306-603299AF9D35}|FitTrack.csproj|solutionrelative:components\\numberbox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8A51E5-53A0-4AD2-B306-603299AF9D35}|FitTrack.csproj|g:\\assignments_nma\\designing and developing object-oriented computer programs\\source code\\fittrack\\signinwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3E8A51E5-53A0-4AD2-B306-603299AF9D35}|FitTrack.csproj|solutionrelative:signinwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Rules.cs",
+              "DocumentMoniker": "G:\\Assignments_NMA\\Designing and Developing Object-Oriented Computer Programs\\Source Code\\FitTrack\\Core\\Rules.cs",
+              "RelativeDocumentMoniker": "Core\\Rules.cs",
+              "ToolTip": "G:\\Assignments_NMA\\Designing and Developing Object-Oriented Computer Programs\\Source Code\\FitTrack\\Core\\Rules.cs",
+              "RelativeToolTip": "Core\\Rules.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T18:33:17.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ErrorMessages.cs",
+              "DocumentMoniker": "G:\\Assignments_NMA\\Designing and Developing Object-Oriented Computer Programs\\Source Code\\FitTrack\\Core\\ErrorMessages.cs",
+              "RelativeDocumentMoniker": "Core\\ErrorMessages.cs",
+              "ToolTip": "G:\\Assignments_NMA\\Designing and Developing Object-Oriented Computer Programs\\Source Code\\FitTrack\\Core\\ErrorMessages.cs",
+              "RelativeToolTip": "Core\\ErrorMessages.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T18:33:16.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CloseWindowRelayCommand.cs",
+              "DocumentMoniker": "G:\\Assignments_NMA\\Designing and Developing Object-Oriented Computer Programs\\Source Code\\FitTrack\\Core\\CloseWindowRelayCommand.cs",
+              "RelativeDocumentMoniker": "Core\\CloseWindowRelayCommand.cs",
+              "ToolTip": "G:\\Assignments_NMA\\Designing and Developing Object-Oriented Computer Programs\\Source Code\\FitTrack\\Core\\CloseWindowRelayCommand.cs",
+              "RelativeToolTip": "Core\\CloseWindowRelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T18:33:13.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChangeViewMessage.cs",
+              "DocumentMoniker": "G:\\Assignments_NMA\\Designing and Developing Object-Oriented Computer Programs\\Source Code\\FitTrack\\Core\\ChangeViewMessage.cs",
+              "RelativeDocumentMoniker": "Core\\ChangeViewMessage.cs",
+              "ToolTip": "G:\\Assignments_NMA\\Designing and Developing Object-Oriented Computer Programs\\Source Code\\FitTrack\\Core\\ChangeViewMessage.cs",
+              "RelativeToolTip": "Core\\ChangeViewMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T18:32:57.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NumberBox.xaml",
+              "DocumentMoniker": "G:\\Assignments_NMA\\Designing and Developing Object-Oriented Computer Programs\\Source Code\\FitTrack\\Components\\NumberBox.xaml",
+              "RelativeDocumentMoniker": "Components\\NumberBox.xaml",
+              "ToolTip": "G:\\Assignments_NMA\\Designing and Developing Object-Oriented Computer Programs\\Source Code\\FitTrack\\Components\\NumberBox.xaml",
+              "RelativeToolTip": "Components\\NumberBox.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-01T18:32:52.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SignInWindow.xaml",
+              "DocumentMoniker": "G:\\Assignments_NMA\\Designing and Developing Object-Oriented Computer Programs\\Source Code\\FitTrack\\SignInWindow.xaml",
+              "RelativeDocumentMoniker": "SignInWindow.xaml",
+              "ToolTip": "G:\\Assignments_NMA\\Designing and Developing Object-Oriented Computer Programs\\Source Code\\FitTrack\\SignInWindow.xaml",
+              "RelativeToolTip": "SignInWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-01T18:32:44.91Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
