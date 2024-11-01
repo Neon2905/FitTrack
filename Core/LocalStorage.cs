@@ -1,4 +1,5 @@
 ﻿using FitTrack.Model;
+using System.Diagnostics;
 using StoredData = FitTrack.Properties.Settings;
 
 namespace FitTrack.Core
@@ -6,7 +7,7 @@ namespace FitTrack.Core
     /// <summary>
     /// Provides access to application settings stored in <see cref="StoredData"/> across the project.
     /// </summary>
-    class LocalStorage
+    static class LocalStorage
     {
         /// <summary>
         /// Gets or sets a value indicating whether energy is displayed in kilocalories.
@@ -57,6 +58,20 @@ namespace FitTrack.Core
         {
             get => new SessionDevice(DeviceId);
             set => DeviceId = value.Id.ToString();
+        }
+
+        /// <summary>
+        /// Reset all settings and local data to default
+        /// </summary>
+        /// <remarks>
+        /// <br>WARNING: </br>Calling this method will reset all locally saved settings and data (login cookies) to default values. Use only when necessary!
+        /// </remarks>
+        public static void Reset()
+        {
+            EnergyInKCalories = WeightInKg = DurationInHour = false;
+            LoginToken = DeviceId = null;
+
+            Trace.WriteLine("ALERT: Local Storage data reset to default!");
         }
     }
 }

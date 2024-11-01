@@ -1,6 +1,5 @@
 ﻿using System;
 using FitTrack.Database;
-using FitTrack.Properties;
 using FitTrack.Exceptions;
 using Attribute = FitTrack.Database.Entities.Session;
 using FitTrack.Core;
@@ -156,11 +155,11 @@ namespace FitTrack.Model
             string Query;
 
             if(AccountId == null)
-                Query = $"INSERT INTO {NameOf(Entities.Table.Session)} ({NameOf(Attribute.DeviceId)},{NameOf(Attribute.SessionType)}) VALUES (" +
-                                $"'{LocalStorage.SessionDevice.Id}','{NameOf(SessionType)}');";
+                Query = $"INSERT INTO {NameOf(Entities.Table.Session)} ({NameOf(Attribute.DeviceId)},{NameOf(Attribute.SessionType)}) " +
+                    $"VALUES ('{LocalStorage.SessionDevice.Id}','{NameOf(SessionType)}');";
             else
-                Query = $"INSERT INTO {NameOf(Entities.Table.Session)} ({NameOf(Attribute.DeviceId)},AccountId,{NameOf(Attribute.SessionType)}) VALUES (" +
-                                $"'{LocalStorage.SessionDevice.Id}','{AccountId}','{NameOf(SessionType)}');";
+                Query = $"INSERT INTO {NameOf(Entities.Table.Session)} ({NameOf(Attribute.DeviceId)},AccountId,{NameOf(Attribute.SessionType)}) " +
+                    $"VALUES ('{LocalStorage.SessionDevice.Id}','{AccountId}','{NameOf(SessionType)}');";
             ExecuteNonQuery(Query);
 
             //Check if there's MultipleRecentFailedSignInLog on Device

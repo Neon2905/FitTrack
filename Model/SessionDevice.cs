@@ -109,7 +109,7 @@ namespace FitTrack.Model
             Exists(Attribute.Id, DeviceId);
 
         /// <summary>
-        /// Adds a sign-in cooldown period to the session device. The cooldown period is set to <see cref="DurationOfEachCooldown"/> minutes from the current UTC time.
+        /// Adds a sign-in cooldown period to the session device. The cooldown period is set to <see cref="Rules.DurationPerCoolDown"/> minutes from the current UTC time.
         /// </summary>
         public void AddSignInCoolDown() =>
             SignInCoolDown = DateTime.UtcNow.AddMinutes(Rules.DurationPerCoolDown);
@@ -172,10 +172,10 @@ namespace FitTrack.Model
         public static SessionDevice Register()
         {
             var Id = GenerateNewDeviceId();
-            var DeviceName = SystemInfo.DeviceName;
-            var OSInformation = SystemInfo.OSInformation;
-            ExecuteNonQuery($"INSERT INTO {NameOf(Entities.Table.SessionDevice)}({NameOf(Attribute.Id)},{NameOf(Attribute.DeviceName)},{NameOf(Attribute.OSInformation)}) VALUES(" +
-                                $"'{Id}', '{DeviceName}', '{OSInformation}');");
+
+            ExecuteNonQuery($"INSERT INTO {NameOf(Entities.Table.SessionDevice)}({NameOf(Attribute.Id)},{NameOf(Attribute.DeviceName)},{NameOf(Attribute.OSInformation)}) " +
+                            $"VALUES('{Id}', '{SystemInfo.DeviceName}', '{SystemInfo.OSInformation}');");
+
             return new SessionDevice(Id);
         }
 

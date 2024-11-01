@@ -9,7 +9,7 @@ namespace FitTrack.Core
     /// <summary>
     /// Contains a collection of static rules used throughout the application.
     /// </summary>
-    public class Rules
+    static public class Rules
     {
         /// <summary>
         /// The minimum length required for passwords.
@@ -21,6 +21,9 @@ namespace FitTrack.Core
         /// </summary>
         public static readonly int MaximumLoginAttempts = 8;
 
+        /// <summary>
+        /// Each duration of device cooldown.
+        /// </summary>
         public static readonly int DurationPerCoolDown = 30;
     }
 }

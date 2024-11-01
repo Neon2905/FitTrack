@@ -53,6 +53,8 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestCertificateThumbprint>A85243BD6B504474CAE6D6AC7B39284653AC4872</ManifestCertificateThumbprint>
@@ -179,11 +181,11 @@
     <Compile Include="Model\Exercise.cs" />
     <Compile Include="Model\Session.cs" />
     <Compile Include="Model\SessionDevice.cs" />
-    <Compile Include="RunAtStartUp.cs" />
     <Compile Include="SignInWindow.xaml.cs">
       <DependentUpon>SignInWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Database\AuthenticationMethod.cs" />
+    <Compile Include="TestAppRunner.cs" />
     <Compile Include="Utilities\Calculator.cs" />
     <Compile Include="Core\ChangeViewMessage.cs" />
     <Compile Include="Core\EventAggregator.cs" />

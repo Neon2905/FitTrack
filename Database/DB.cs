@@ -43,7 +43,7 @@ namespace FitTrack.Database
                     $"VALUES ('{key}','{ExerciseDictionary[key].LOW}','{ExerciseDictionary[key].MED}','{ExerciseDictionary[key].EXTREME}'," +
                     $"'{ExerciseDictionary[key].LOW_EXPRESSION}','{ExerciseDictionary[key].MED_EXPRESSION}','{ExerciseDictionary[key].EXTREME_EXPRESSION}');");
             }
-            Trace.WriteLine("Data Mitigated Successfully");
+            Trace.WriteLine("Seeding exercises successful.");
         }
 
 
@@ -58,13 +58,18 @@ namespace FitTrack.Database
                 new AccountData(){ Id=GenerateNewAccountId() , Username="user", Password="Password", LastName="User", Email="user@email.com" }
             };
 
-            foreach (AccountData account in AccountDatas)
+            foreach (var account in AccountDatas)
             {
                 Account LoginAccount = Account.Create(account.Username, account.Password);
                 LoginAccount.Email = account.Email;
                 LoginAccount.FirstName = account.FirstName;
                 LoginAccount.LastName = account.LastName;
             }
+
+            Trace.WriteLine("Seeding profiles successful.");
+
+            //Delete login data used for seeding
+            LocalStorage.DeviceId = LocalStorage.LoginToken = null;
         }
 
         /// <summary>

@@ -434,10 +434,10 @@ namespace FitTrack.Model
             if (Exists(Attribute.Username, Username))
                 throw new ConflictUsernameException();
 
-            ExecuteNonQuery($"INSERT INTO Account({NameOf(Attribute.Id)},{NameOf(Attribute.Username)}, {NameOf(Attribute.PasswordHash)}) Values" +
-                            $"('{GenerateNewAccountId()}','{Username}','{GetHash(Password)}')");
+            ExecuteNonQuery($"INSERT INTO Account({NameOf(Attribute.Id)},{NameOf(Attribute.Username)}, {NameOf(Attribute.PasswordHash)}) " +
+                            $"VALUES('{GenerateNewAccountId()}','{Username}','{GetHash(Password)}')");
 
-            Account new_account = Account.SignIn(Username, Password);
+            var new_account = Account.SignIn(Username, Password);
 
             Session.Register(SessionKind.RegisterAccount, new_account.id);
 

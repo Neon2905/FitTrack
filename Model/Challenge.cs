@@ -314,7 +314,6 @@ namespace FitTrack.Model
         /// <param name="ExerciseId">The identifier of the exercise.</param>
         /// <param name="Weight">The weight used during the activity.</param>
         /// <param name="Duration">The duration of the activity.</param>
-        /// <param name="SpeedOrEffort">The speed or effort level of the activity.</param>
         /// <param name="Burned_Calories">The number of calories burned during the activity.</param>
         public void CreateActivity(int ExerciseId, double Weight, double Duration, double Burned_Calories)
         {
