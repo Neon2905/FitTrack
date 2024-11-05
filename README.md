@@ -1,5 +1,7 @@
 <h1>FitTrack Application (Version 1.0.1.3)</h1>
 
+This version is to clean up and improve performance of the application.
+
 Overview
 ========
 FitTrack is a fitness tracking application designed to help athletes monitor their activities and caloric burn. The project includes various components organized into specific files and directories.<br/>
