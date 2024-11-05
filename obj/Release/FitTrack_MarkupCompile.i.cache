@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-G:\Assignments_NMA\Thant_Pyae_Shine_Assignments_Collection\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\obj\Release\
+C:\Users\tpshi\Desktop\FitTrack v1.0.1.3\obj\Release\
 FitTrack
 none
 false
 TRACE
-G:\Assignments_NMA\Thant_Pyae_Shine_Assignments_Collection\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\App.xaml
-271030501459
+C:\Users\tpshi\Desktop\FitTrack v1.0.1.3\App.xaml
+27-1698870188
 21911399624
-731158553982
-27355269048
-Components\NumberBox.xaml;Components\PasswordBox.xaml;Components\TextBox.xaml;Dialogs\ConfirmationDialog.xaml;Dialogs\MessageDialog.xaml;Dialogs\RequestPasswordDialog.xaml;Dialogs\RequestUserTextInputDialog.xaml;MainWindow.xaml;SignInWindow.xaml;Core\DataTemplate.xaml;Styles\BlankButton.xaml;Styles\Button.xaml;Styles\DataGrid.xaml;Styles\ElementTemplate.xaml;Styles\MenuButton.xaml;Styles\RoundedButton.xaml;Styles\SettingButton.xaml;Styles\ToggleButton.xaml;View\SignInHistory.xaml;View\ChallengeView.xaml;View\ChangePassword.xaml;View\ChangeUsername.xaml;View\Home.xaml;View\Profile.xaml;View\Progress.xaml;View\Setting.xaml;View\StartNewChallenge.xaml;
+72490186343
+271708744873
+Components\NumberBox.xaml;Components\PasswordBox.xaml;Components\TextBox.xaml;Dialogs\ConfirmationDialog.xaml;Dialogs\MessageDialog.xaml;Dialogs\RequestPasswordDialog.xaml;Dialogs\RequestUserTextInputDialog.xaml;MainWindow.xaml;SignInWindow.xaml;Core\DataTemplate.xaml;Styles\BlankButton.xaml;Styles\Button.xaml;Styles\DataGrid.xaml;Styles\MenuButton.xaml;Styles\Resources.xaml;Styles\RoundedButton.xaml;Styles\SettingButton.xaml;Styles\ToggleButton.xaml;View\SignInHistory.xaml;View\ChallengeView.xaml;View\ChangePassword.xaml;View\ChangeUsername.xaml;View\Home.xaml;View\Profile.xaml;View\Progress.xaml;View\Setting.xaml;View\StartNewChallenge.xaml;
 
-False
+True
 

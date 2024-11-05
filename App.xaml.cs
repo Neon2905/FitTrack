@@ -23,8 +23,8 @@ namespace FitTrack
         /// </remarks>
         protected override void OnStartup(StartupEventArgs e)
         {
-            base.OnStartup(e);
             TestAppRunner.OnStartUp();
+            base.OnStartup(e);
 
             if (LocalStorage.DeviceId is null || !SessionDevice.Find(LocalStorage.DeviceId))
                 //Assign new registered SessionDevice               

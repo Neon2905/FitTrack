@@ -9,38 +9,58 @@
         Background="Transparent" AllowsTransparency="True"
         WindowStartupLocation="CenterOwner"
         Height="180" Width="350">
-    <Border CornerRadius="15" 
-            Background="#FF111944"
-            BorderThickness="1"
-            BorderBrush="AliceBlue"
-            MouseDown="MouseDrag">
+    
+    <Border
+        CornerRadius="{StaticResource DialogBoxCornerRadius}"
+        Background="{StaticResource DialogBoxBackgroundColor}"
+        BorderThickness="{StaticResource DialogBoxStroke}"
+        BorderBrush="{StaticResource DialogBoxBorderBrush}"
+        MouseDown="MouseDrag">
+        
         <Grid>
-            <Grid Name="CloseGrid" Width="25" Height="25" HorizontalAlignment="Right"
-                  MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"
-                  VerticalAlignment="Top" Margin="0,5,5,0">
-                <Button x:Name="CloseButton" 
-                        Style="{StaticResource BlankButton}"
-                        Click="Close"/>
-                <materialDesign:PackIcon Name="CloseIcon" Kind="Close" Foreground="Gray"
-                                         Width="25" Height="25"/>
+            
+            <Grid
+                Name="CloseGrid"
+                Width="25" Height="25"
+                HorizontalAlignment="Right" VerticalAlignment="Top"
+                MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"
+                Margin="0,5,5,0">
+                
+                <Button
+                    x:Name="CloseButton" 
+                    Style="{StaticResource BlankButton}"
+                    Click="Close"/>
+                
+                <materialDesign:PackIcon
+                    Name="CloseIcon"
+                    Kind="Close"
+                    Foreground="Gray"
+                    Width="25" Height="25"/>
+                
             </Grid>
-            <TextBlock Name="TitleBlock" 
-                   Text="Confirm"
-                   VerticalAlignment="Top"
-                   HorizontalAlignment="Center"
-                   Foreground="AliceBlue"
-                   FontWeight="Bold"
-                   FontSize="18"
-                   Margin="0,5,0,0"/>
-            <TextBlock Name="MessageBlock"
-                   TextAlignment="Center" 
-                   Text="Message will appear here"
-                   Width="300"
-                   Height="60"
-                   TextWrapping="Wrap"
-                   Foreground="AliceBlue" FontSize="15"
-                   HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,45,0,0"/>
-            <Button Content="Yes" 
+
+            <TextBlock
+                Style="{StaticResource DefaultText}"
+                Name="TitleBlock"
+                Text="Confirm"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Center"
+                FontWeight="Bold"
+                FontSize="18"
+                Margin="0,10,0,0"/>
+
+            <TextBlock
+                Style="{StaticResource DefaultText}"
+                Name="MessageBlock"
+                TextAlignment="Center"
+                Text="Messages will appear here"
+                Width="300" Height="60"
+                TextWrapping="Wrap"
+                HorizontalAlignment="Center" VerticalAlignment="Top"
+                Margin="0,45,0,0"/>
+            
+            <Button
+                Content="Yes" 
                 Style="{StaticResource Button}"
                 Click="Yes"
                 Width="80"
@@ -49,7 +69,9 @@
                 HorizontalAlignment="Left"
                 VerticalAlignment="Bottom"
                 Margin="60,0,0,25"/>
-            <Button Content="Cancel" 
+            
+            <Button
+                Content="Cancel" 
                 Style="{StaticResource Button}"
                 Click="Close"
                 Width="80"
@@ -58,6 +80,9 @@
                 HorizontalAlignment="Right"
                 VerticalAlignment="Bottom"
                 Margin="0,0,60,25"/>
+            
         </Grid>
+        
     </Border>
+    
 </Window>

@@ -1,5 +1,4 @@
 ﻿using FitTrack.Exceptions;
-using FitTrack.Properties;
 using System;
 using FitTrack.Database;
 using FitTrack.Core;

@@ -9,7 +9,8 @@
         <ResourceDictionary>
 
             <ResourceDictionary.MergedDictionaries>
-                
+
+                <ResourceDictionary Source="Styles/Resources.xaml"/>
                 <ResourceDictionary Source="Core/DataTemplate.xaml"/>
                 <ResourceDictionary Source="Styles/DataGrid.xaml"/>
                 <ResourceDictionary Source="Styles/Button.xaml"/>
@@ -18,7 +19,7 @@
                 <ResourceDictionary Source="Styles/SettingButton.xaml"/>
                 <ResourceDictionary Source="Styles/BlankButton.xaml"/>
                 <ResourceDictionary Source="Styles/RoundedButton.xaml"/>
-                <ResourceDictionary Source="Styles/ElementTemplate.xaml"/>
+                <ResourceDictionary Source="Styles/ComboBox.xaml"/>
 
             </ResourceDictionary.MergedDictionaries>
 

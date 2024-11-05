@@ -68,7 +68,7 @@ namespace FitTrack.ViewModel
         public ObservableCollection<string> GenderItems
         {
             get => genderItems;
-            set { /*blank*/ }
+            set { /*Dummy-Code*/ }
         }
 
         private string selectedGender;

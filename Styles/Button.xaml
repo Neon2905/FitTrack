@@ -1,6 +1,5 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-    <SolidColorBrush x:Key="PrimaryBlue" Color="#FF3D80AC"/>
 
     <Color x:Key="BackgroundColor">Transparent</Color>
     <Color x:Key="ActiveBackgroundColor">#FF3D80AC</Color>
@@ -44,7 +43,8 @@
                             <BeginStoryboard>
 
                                 <Storyboard>
-                                    <ColorAnimation Storyboard.TargetName="BorderBackground"
+                                    <ColorAnimation
+                                        Storyboard.TargetName="BorderBackground"
                                         Storyboard.TargetProperty="Color"
                                         From="{StaticResource BackgroundColor}"
                                         To="{StaticResource ActiveBackgroundColor}"
@@ -62,7 +62,8 @@
                             <BeginStoryboard>
 
                                 <Storyboard>
-                                    <ColorAnimation Storyboard.TargetName="BorderBackground"
+                                    <ColorAnimation
+                                        Storyboard.TargetName="BorderBackground"
                                         Storyboard.TargetProperty="Color"
                                         From="{StaticResource ActiveBackgroundColor}"
                                         To="{StaticResource BackgroundColor}"
@@ -81,6 +82,7 @@
 
     <Style x:Key="WindowMinimizeButton" TargetType="Button">
         <Setter Property="Cursor" Value="Hand"/>
+        <Setter Property="Foreground" Value="AliceBlue"/>
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="Button">
@@ -110,7 +112,8 @@
                             <BeginStoryboard>
 
                                 <Storyboard>
-                                    <ColorAnimation Storyboard.TargetName="BorderBackground"
+                                    <ColorAnimation
+                                        Storyboard.TargetName="BorderBackground"
                                         Storyboard.TargetProperty="Color"
                                         From="Transparent"
                                         To="LightGray"
@@ -128,7 +131,8 @@
                             <BeginStoryboard>
 
                                 <Storyboard>
-                                    <ColorAnimation Storyboard.TargetName="BorderBackground"
+                                    <ColorAnimation
+                                        Storyboard.TargetName="BorderBackground"
                                         Storyboard.TargetProperty="Color"
                                         From="LightGray"
                                         To="Transparent"
@@ -148,6 +152,7 @@
 
     <Style x:Key="WindowCloseButton" TargetType="Button">
         <Setter Property="Cursor" Value="Hand"/>
+        <Setter Property="Foreground" Value="AliceBlue"/>
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="Button">
@@ -172,8 +177,8 @@
                     <ControlTemplate.Triggers>
 
                         <EventTrigger 
-                        RoutedEvent="Border.MouseEnter"
-                        SourceName="Border">
+                            RoutedEvent="Border.MouseEnter"
+                            SourceName="Border">
 
                             <BeginStoryboard>
 
@@ -190,8 +195,8 @@
                         </EventTrigger>
 
                         <EventTrigger 
-                        RoutedEvent="Border.MouseLeave"
-                        SourceName="Border">
+                            RoutedEvent="Border.MouseLeave"
+                            SourceName="Border">
 
                             <BeginStoryboard>
 

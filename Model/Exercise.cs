@@ -1,6 +1,5 @@
 ﻿using FitTrack.Utilities;
 using System;
-using System.Data;
 using System.Collections.Generic;
 using FitTrack.Database;
 using Attribute = FitTrack.Database.Entities.Exercise;

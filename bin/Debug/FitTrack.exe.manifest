@@ -55,14 +55,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FitTrack.exe" size="828416">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FitTrack.exe" size="834048">
       <assemblyIdentity name="FitTrack" version="1.0.1.2" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ouGeECxdTh/iUwP8y/kmPpPpqUywtvkLcTJtNANHG40=</dsig:DigestValue>
+        <dsig:DigestValue>IFno0NPra5GKAY8VzFMiaRm7udSjAomDT0y/yKwp4rI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -180,7 +180,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>hExZnW7X6dTZ5VOGpZLTKNeTQGaDf4Krl+PWYhLMGBY=</dsig:DigestValue>
+      <dsig:DigestValue>qkwyoh1VqJwAZK4nu5cZX7tO68y5ygj3MrnnLj4R9YE=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Database\Database_log.ldf" size="8388608" writeableType="applicationData">
@@ -189,7 +189,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>zffkdRIRDjTvIFJUs0KT7YBZl/ShUzXfzBozCAqa69o=</dsig:DigestValue>
+      <dsig:DigestValue>dWpk966auJ9TQlysMQ3WYRg/TR3llJrGGBdO1N7K7Lo=</dsig:DigestValue>
     </hash>
   </file>
   <file name="FitTrack.exe.config" size="1505">

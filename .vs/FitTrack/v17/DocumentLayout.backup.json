@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "G:\\Assignments_NMA\\Designing and Developing Object-Oriented Computer Programs\\Source Code\\FitTrack\\",
+  "WorkspaceRootPath": "C:\\Users\\tpshi\\Desktop\\FitTrack v1.0.2.2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3E8A51E5-53A0-4AD2-B306-603299AF9D35}|FitTrack.csproj|g:\\assignments_nma\\designing and developing object-oriented computer programs\\source code\\fittrack\\testapprunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E8A51E5-53A0-4AD2-B306-603299AF9D35}|FitTrack.csproj|c:\\users\\tpshi\\desktop\\fittrack v1.0.2.2\\testapprunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E8A51E5-53A0-4AD2-B306-603299AF9D35}|FitTrack.csproj|solutionrelative:testapprunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,19 +14,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "TestAppRunner.cs",
-              "DocumentMoniker": "G:\\Assignments_NMA\\Designing and Developing Object-Oriented Computer Programs\\Source Code\\FitTrack\\TestAppRunner.cs",
+              "DocumentMoniker": "C:\\Users\\tpshi\\Desktop\\FitTrack v1.0.2.2\\TestAppRunner.cs",
               "RelativeDocumentMoniker": "TestAppRunner.cs",
-              "ToolTip": "G:\\Assignments_NMA\\Designing and Developing Object-Oriented Computer Programs\\Source Code\\FitTrack\\TestAppRunner.cs",
+              "ToolTip": "C:\\Users\\tpshi\\Desktop\\FitTrack v1.0.2.2\\TestAppRunner.cs",
               "RelativeToolTip": "TestAppRunner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T20:54:23.785Z",
+              "WhenOpened": "2024-11-05T22:21:41.393Z",
               "EditorCaption": ""
             }
           ]

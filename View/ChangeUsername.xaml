@@ -8,41 +8,64 @@
              xmlns:components="clr-namespace:FitTrack.Components"
              mc:Ignorable="d" 
              d:DesignHeight="600" d:DesignWidth="700">
+    
     <Grid>
+        
         <!--Back Button-->
-        <Button Width="50" Height="50" 
-                    Style="{StaticResource BlankButton}"
-                    VerticalAlignment="Top" 
-                    HorizontalAlignment="Left"
-                    Command="{Binding NavigateSettingCommand}"
-                    Margin="5">
-            <materialDesign:PackIcon Kind="ChevronLeft"
-                             Width="50" Height="50"
-                             Foreground="#FF515151"/>
+        <Button
+            Width="50"
+            Height="50" 
+            Style="{StaticResource BlankButton}"
+            VerticalAlignment="Top" 
+            HorizontalAlignment="Left"
+            Command="{Binding NavigateSettingCommand}"
+            Margin="5">
+            
+            <materialDesign:PackIcon
+                Kind="ChevronLeft"
+                Width="50" Height="50"
+                Foreground="{StaticResource ChevronLeftIconColor}"/>
+            
         </Button>
         
         <!--Main Panel-->
-        <Grid Width="400" Height="400">
-            <TextBlock Text="Change Username"
-                   Foreground="AliceBlue"
-                   FontSize="25" HorizontalAlignment="Center" 
-                   VerticalAlignment="Center"
-                   FontWeight="Bold"
-                   Margin="0,0,0,220"/>
-            <TextBlock Text="{Binding UsernameNotMetRequirementError}" 
-                       Foreground="Red" VerticalAlignment="Center"
-                       HorizontalAlignment="Center"
-                       FontSize="10" Width="200" Height="20" Margin="0,0,0,150"/>
-            <components:TextBox Placeholder="New Username"
-                                Text="{Binding NewUsername, UpdateSourceTrigger=PropertyChanged}"
-                                FontSize="15" Height="30" Width="200"
-                                Margin="0,0,0,100"/>
-            <Button Content="Change Username" 
-                    HorizontalAlignment="Center"
-                    Style="{StaticResource Button}"
-                    Command="{Binding ChangeUsernameCommand}"
-                    Width="150" Height="40"
-                    VerticalAlignment="Top" Margin="0,200,0,0"/>
+        <Grid
+            Width="400"
+            Height="400">
+
+            <TextBlock
+                Style="{StaticResource DefaultText}"
+                Text="Change Username"
+                FontSize="25"
+                HorizontalAlignment="Center" VerticalAlignment="Center"
+                FontWeight="Bold"
+                Margin="0,0,0,220"/>
+            
+            <TextBlock
+                Text="{Binding UsernameNotMetRequirementError}" 
+                Foreground="{StaticResource WarningTextColor}"
+                VerticalAlignment="Center" HorizontalAlignment="Center"
+                FontSize="10"
+                Width="200" Height="20"
+                Margin="0,0,0,150"/>
+            
+            <components:TextBox
+                Placeholder="New Username"
+                Text="{Binding NewUsername, UpdateSourceTrigger=PropertyChanged}"
+                Height="30" Width="200"
+                Margin="0,0,0,100"/>
+            
+            <Button
+                Content="Change Username" 
+                HorizontalAlignment="Center"
+                Style="{StaticResource Button}"
+                Command="{Binding ChangeUsernameCommand}"
+                Width="150" Height="40"
+                VerticalAlignment="Top"
+                Margin="0,200,0,0"/>
+            
         </Grid>
+        
     </Grid>
+    
 </UserControl>

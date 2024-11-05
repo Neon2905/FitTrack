@@ -91,14 +91,7 @@ namespace FitTrack.Model
                 var value = Get(Attribute.DateOfBirth);
                 return string.IsNullOrEmpty(value) ? new DateTime?() : DateTime.Parse(value); //returns null value of DateTime? if Attribute is null
             }
-            set
-            {
-                var DateOfBirth = value;
-                if (DateOfBirth != null)
-                    Update(Attribute.DateOfBirth, DateOfBirth);
-                else
-                    Update(Attribute.DateOfBirth, "NULL");
-            }
+            set => Update(Attribute.DateOfBirth, value);
         }
 
         /// <summary>
@@ -133,7 +126,7 @@ namespace FitTrack.Model
                     case ('O'):
                         return "Other";
                     default:
-                        return "null";
+                        return "NULL";
                 }
             }
             set
