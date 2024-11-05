@@ -1,22 +1,22 @@
-﻿
-FG:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\App.xaml;;
-FG:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\Components\NumberBox.xaml;;
-FG:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\Components\PasswordBox.xaml;;
-FG:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\Components\TextBox.xaml;;
-FG:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\Dialogs\ConfirmationDialog.xaml;;
-FG:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\Dialogs\MessageDialog.xaml;;
-FG:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\Dialogs\RequestPasswordDialog.xaml;;
-FG:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\Dialogs\RequestUserTextInputDialog.xaml;;
-FG:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\MainWindow.xaml;;
-FG:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\SignInWindow.xaml;;
-FG:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\Core\DataTemplate.xaml;;
-FG:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\View\SignInHistory.xaml;;
-FG:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\View\ChallengeView.xaml;;
-FG:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\View\ChangePassword.xaml;;
-FG:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\View\ChangeUsername.xaml;;
-FG:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\View\Home.xaml;;
-FG:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\View\Profile.xaml;;
-FG:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\View\Progress.xaml;;
-FG:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\View\Setting.xaml;;
-FG:\Assignments_NMA\Designing and Developing Object-Oriented Computer Programs\Source Code\FitTrack\View\StartNewChallenge.xaml;;
+﻿C:\Users\tpshi\Desktop\FitTrack v1.0.1.3\obj\Release\GeneratedInternalTypeHelper.g.cs
+FC:\Users\tpshi\Desktop\FitTrack v1.0.1.3\App.xaml;;
+FC:\Users\tpshi\Desktop\FitTrack v1.0.1.3\Components\NumberBox.xaml;;
+FC:\Users\tpshi\Desktop\FitTrack v1.0.1.3\Components\PasswordBox.xaml;;
+FC:\Users\tpshi\Desktop\FitTrack v1.0.1.3\Components\TextBox.xaml;;
+FC:\Users\tpshi\Desktop\FitTrack v1.0.1.3\Dialogs\ConfirmationDialog.xaml;;
+FC:\Users\tpshi\Desktop\FitTrack v1.0.1.3\Dialogs\MessageDialog.xaml;;
+FC:\Users\tpshi\Desktop\FitTrack v1.0.1.3\Dialogs\RequestPasswordDialog.xaml;;
+FC:\Users\tpshi\Desktop\FitTrack v1.0.1.3\Dialogs\RequestUserTextInputDialog.xaml;;
+FC:\Users\tpshi\Desktop\FitTrack v1.0.1.3\MainWindow.xaml;;
+FC:\Users\tpshi\Desktop\FitTrack v1.0.1.3\SignInWindow.xaml;;
+FC:\Users\tpshi\Desktop\FitTrack v1.0.1.3\Core\DataTemplate.xaml;;
+FC:\Users\tpshi\Desktop\FitTrack v1.0.1.3\View\SignInHistory.xaml;;
+FC:\Users\tpshi\Desktop\FitTrack v1.0.1.3\View\ChallengeView.xaml;;
+FC:\Users\tpshi\Desktop\FitTrack v1.0.1.3\View\ChangePassword.xaml;;
+FC:\Users\tpshi\Desktop\FitTrack v1.0.1.3\View\ChangeUsername.xaml;;
+FC:\Users\tpshi\Desktop\FitTrack v1.0.1.3\View\Home.xaml;;
+FC:\Users\tpshi\Desktop\FitTrack v1.0.1.3\View\Profile.xaml;;
+FC:\Users\tpshi\Desktop\FitTrack v1.0.1.3\View\Progress.xaml;;
+FC:\Users\tpshi\Desktop\FitTrack v1.0.1.3\View\Setting.xaml;;
+FC:\Users\tpshi\Desktop\FitTrack v1.0.1.3\View\StartNewChallenge.xaml;;
 

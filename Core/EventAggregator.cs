@@ -4,8 +4,12 @@ using System.Collections.Generic;
 namespace FitTrack.Core
 {
     /// <summary>
-    /// Provides a way to publish and subscribe to events using a singleton pattern.
+    /// Manages the publishing and subscription of events in a singleton pattern.
     /// </summary>
+    /// <remarks>
+    /// This class allows different components to subscribe to specific event types, associating each subscription with an <see cref="Action"/> to be executed. 
+    /// When an event of a subscribed type is published, all registered actions for that type are invoked.
+    /// </remarks>
     public class EventAggregator
     {
         private static readonly Dictionary<Type, List<Action<object>>> _subscribers = new Dictionary<Type, List<Action<object>>>();

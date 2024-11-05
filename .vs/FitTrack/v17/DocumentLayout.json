@@ -1,9 +1,49 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "G:\\Assignments_NMA\\Designing and Developing Object-Oriented Computer Programs\\Source Code\\FitTrack\\",
+  "WorkspaceRootPath": "C:\\Users\\tpshi\\Desktop\\FitTrack v1.0.1.3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3E8A51E5-53A0-4AD2-B306-603299AF9D35}|FitTrack.csproj|g:\\assignments_nma\\designing and developing object-oriented computer programs\\source code\\fittrack\\testapprunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E8A51E5-53A0-4AD2-B306-603299AF9D35}|FitTrack.csproj|c:\\users\\tpshi\\desktop\\fittrack v1.0.1.3\\converters\\booleantovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8A51E5-53A0-4AD2-B306-603299AF9D35}|FitTrack.csproj|solutionrelative:converters\\booleantovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8A51E5-53A0-4AD2-B306-603299AF9D35}|FitTrack.csproj|c:\\users\\tpshi\\desktop\\fittrack v1.0.1.3\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3E8A51E5-53A0-4AD2-B306-603299AF9D35}|FitTrack.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8A51E5-53A0-4AD2-B306-603299AF9D35}|FitTrack.csproj|c:\\users\\tpshi\\desktop\\fittrack v1.0.1.3\\core\\changeviewmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8A51E5-53A0-4AD2-B306-603299AF9D35}|FitTrack.csproj|solutionrelative:core\\changeviewmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8A51E5-53A0-4AD2-B306-603299AF9D35}|FitTrack.csproj|c:\\users\\tpshi\\desktop\\fittrack v1.0.1.3\\core\\eventaggregator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8A51E5-53A0-4AD2-B306-603299AF9D35}|FitTrack.csproj|solutionrelative:core\\eventaggregator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8A51E5-53A0-4AD2-B306-603299AF9D35}|FitTrack.csproj|c:\\users\\tpshi\\desktop\\fittrack v1.0.1.3\\viewmodel\\challengevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8A51E5-53A0-4AD2-B306-603299AF9D35}|FitTrack.csproj|solutionrelative:viewmodel\\challengevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8A51E5-53A0-4AD2-B306-603299AF9D35}|FitTrack.csproj|c:\\users\\tpshi\\desktop\\fittrack v1.0.1.3\\viewmodel\\changepasswordvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8A51E5-53A0-4AD2-B306-603299AF9D35}|FitTrack.csproj|solutionrelative:viewmodel\\changepasswordvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8A51E5-53A0-4AD2-B306-603299AF9D35}|FitTrack.csproj|c:\\users\\tpshi\\desktop\\fittrack v1.0.1.3\\viewmodel\\mainwindowvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8A51E5-53A0-4AD2-B306-603299AF9D35}|FitTrack.csproj|solutionrelative:viewmodel\\mainwindowvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8A51E5-53A0-4AD2-B306-603299AF9D35}|FitTrack.csproj|c:\\users\\tpshi\\desktop\\fittrack v1.0.1.3\\core\\closewindowrelaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8A51E5-53A0-4AD2-B306-603299AF9D35}|FitTrack.csproj|solutionrelative:core\\closewindowrelaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8A51E5-53A0-4AD2-B306-603299AF9D35}|FitTrack.csproj|c:\\users\\tpshi\\desktop\\fittrack v1.0.1.3\\core\\errormessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8A51E5-53A0-4AD2-B306-603299AF9D35}|FitTrack.csproj|solutionrelative:core\\errormessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8A51E5-53A0-4AD2-B306-603299AF9D35}|FitTrack.csproj|c:\\users\\tpshi\\desktop\\fittrack v1.0.1.3\\core\\datatemplate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3E8A51E5-53A0-4AD2-B306-603299AF9D35}|FitTrack.csproj|solutionrelative:core\\datatemplate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8A51E5-53A0-4AD2-B306-603299AF9D35}|FitTrack.csproj|c:\\users\\tpshi\\desktop\\fittrack v1.0.1.3\\testapprunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E8A51E5-53A0-4AD2-B306-603299AF9D35}|FitTrack.csproj|solutionrelative:testapprunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -19,12 +59,140 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BooleanToVisibilityConverter.cs",
+              "DocumentMoniker": "C:\\Users\\tpshi\\Desktop\\FitTrack v1.0.1.3\\Converters\\BooleanToVisibilityConverter.cs",
+              "RelativeDocumentMoniker": "Converters\\BooleanToVisibilityConverter.cs",
+              "ToolTip": "C:\\Users\\tpshi\\Desktop\\FitTrack v1.0.1.3\\Converters\\BooleanToVisibilityConverter.cs",
+              "RelativeToolTip": "Converters\\BooleanToVisibilityConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T11:56:14.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\tpshi\\Desktop\\FitTrack v1.0.1.3\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\tpshi\\Desktop\\FitTrack v1.0.1.3\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-05T11:54:50.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChangePasswordVM.cs",
+              "DocumentMoniker": "C:\\Users\\tpshi\\Desktop\\FitTrack v1.0.1.3\\ViewModel\\ChangePasswordVM.cs",
+              "RelativeDocumentMoniker": "ViewModel\\ChangePasswordVM.cs",
+              "ToolTip": "C:\\Users\\tpshi\\Desktop\\FitTrack v1.0.1.3\\ViewModel\\ChangePasswordVM.cs",
+              "RelativeToolTip": "ViewModel\\ChangePasswordVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T11:53:12.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChallengeVM.cs",
+              "DocumentMoniker": "C:\\Users\\tpshi\\Desktop\\FitTrack v1.0.1.3\\ViewModel\\ChallengeVM.cs",
+              "RelativeDocumentMoniker": "ViewModel\\ChallengeVM.cs",
+              "ToolTip": "C:\\Users\\tpshi\\Desktop\\FitTrack v1.0.1.3\\ViewModel\\ChallengeVM.cs",
+              "RelativeToolTip": "ViewModel\\ChallengeVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANkAAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T11:42:30.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindowVM.cs",
+              "DocumentMoniker": "C:\\Users\\tpshi\\Desktop\\FitTrack v1.0.1.3\\ViewModel\\MainWindowVM.cs",
+              "RelativeDocumentMoniker": "ViewModel\\MainWindowVM.cs",
+              "ToolTip": "C:\\Users\\tpshi\\Desktop\\FitTrack v1.0.1.3\\ViewModel\\MainWindowVM.cs",
+              "RelativeToolTip": "ViewModel\\MainWindowVM.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAgwHkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T11:41:31.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EventAggregator.cs",
+              "DocumentMoniker": "C:\\Users\\tpshi\\Desktop\\FitTrack v1.0.1.3\\Core\\EventAggregator.cs",
+              "RelativeDocumentMoniker": "Core\\EventAggregator.cs",
+              "ToolTip": "C:\\Users\\tpshi\\Desktop\\FitTrack v1.0.1.3\\Core\\EventAggregator.cs",
+              "RelativeToolTip": "Core\\EventAggregator.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwB8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T11:39:06.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ErrorMessages.cs",
+              "DocumentMoniker": "C:\\Users\\tpshi\\Desktop\\FitTrack v1.0.1.3\\Core\\ErrorMessages.cs",
+              "RelativeDocumentMoniker": "Core\\ErrorMessages.cs",
+              "ToolTip": "C:\\Users\\tpshi\\Desktop\\FitTrack v1.0.1.3\\Core\\ErrorMessages.cs",
+              "RelativeToolTip": "Core\\ErrorMessages.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T11:38:10.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DataTemplate.xaml",
+              "DocumentMoniker": "C:\\Users\\tpshi\\Desktop\\FitTrack v1.0.1.3\\Core\\DataTemplate.xaml",
+              "RelativeDocumentMoniker": "Core\\DataTemplate.xaml",
+              "ToolTip": "C:\\Users\\tpshi\\Desktop\\FitTrack v1.0.1.3\\Core\\DataTemplate.xaml",
+              "RelativeToolTip": "Core\\DataTemplate.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-05T11:37:56.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CloseWindowRelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\tpshi\\Desktop\\FitTrack v1.0.1.3\\Core\\CloseWindowRelayCommand.cs",
+              "RelativeDocumentMoniker": "Core\\CloseWindowRelayCommand.cs",
+              "ToolTip": "C:\\Users\\tpshi\\Desktop\\FitTrack v1.0.1.3\\Core\\CloseWindowRelayCommand.cs",
+              "RelativeToolTip": "Core\\CloseWindowRelayCommand.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T11:37:52.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChangeViewMessage.cs",
+              "DocumentMoniker": "C:\\Users\\tpshi\\Desktop\\FitTrack v1.0.1.3\\Core\\ChangeViewMessage.cs",
+              "RelativeDocumentMoniker": "Core\\ChangeViewMessage.cs",
+              "ToolTip": "C:\\Users\\tpshi\\Desktop\\FitTrack v1.0.1.3\\Core\\ChangeViewMessage.cs",
+              "RelativeToolTip": "Core\\ChangeViewMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T11:37:40.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "TestAppRunner.cs",
-              "DocumentMoniker": "G:\\Assignments_NMA\\Designing and Developing Object-Oriented Computer Programs\\Source Code\\FitTrack\\TestAppRunner.cs",
+              "DocumentMoniker": "C:\\Users\\tpshi\\Desktop\\FitTrack v1.0.1.3\\TestAppRunner.cs",
               "RelativeDocumentMoniker": "TestAppRunner.cs",
-              "ToolTip": "G:\\Assignments_NMA\\Designing and Developing Object-Oriented Computer Programs\\Source Code\\FitTrack\\TestAppRunner.cs",
+              "ToolTip": "C:\\Users\\tpshi\\Desktop\\FitTrack v1.0.1.3\\TestAppRunner.cs",
               "RelativeToolTip": "TestAppRunner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T20:54:23.785Z",
               "EditorCaption": ""
