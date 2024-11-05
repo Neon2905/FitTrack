@@ -1,4 +1,4 @@
-<h1>FitTrack Application (Version 1.0.1.2)</h1>
+<h1>FitTrack Application (Version 1.0.1.3)</h1>
 
 Overview
 ========
