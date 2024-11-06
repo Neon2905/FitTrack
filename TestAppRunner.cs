@@ -1,6 +1,4 @@
-﻿using FitTrack.Core;
-
-namespace FitTrack
+﻿namespace FitTrack
 {
     /// <summary>
     /// Provides methods to simulate application startup and exit events for testing purposes.
