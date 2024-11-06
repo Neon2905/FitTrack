@@ -12,172 +12,280 @@
     <Grid>
         
         <!--Back Button-->
-        <Button Width="50" Height="50" 
-                    Style="{StaticResource BlankButton}"
-                    VerticalAlignment="Top" 
-                    HorizontalAlignment="Left"
-                    Command="{Binding NavigateSettingCommand}"
-                    Margin="5">
-            <materialDesign:PackIcon Kind="ChevronLeft"
-                                         Width="50" Height="50"
-                                         Foreground="#FF515151"/>
+        <Button
+            Width="50" Height="50" 
+            Style="{StaticResource BlankButton}"
+            VerticalAlignment="Top" 
+            HorizontalAlignment="Left"
+            Command="{Binding NavigateSettingCommand}"
+            Margin="5">
+            
+            <materialDesign:PackIcon
+                Kind="ChevronLeft"
+                Width="50" Height="50"
+                Foreground="{StaticResource ChevronLeftIconColor}"/>
+            
         </Button>
         
         <!--Main Panel-->
-        <Grid Width="500" Height="500">
-            <TextBlock Text="Personal Profile" FontSize="25"
-                       Foreground="AliceBlue" FontWeight="Bold"
-                       HorizontalAlignment="Center" VerticalAlignment="Top"
-                       Margin="0,13,0,0"/>
-            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center"
-                        Height="349" Width="350">
+        <Grid
+            Width="500" Height="500">
+
+            <TextBlock
+                Style="{StaticResource DefaultText}"
+                Text="Personal Profile"
+                FontSize="25" FontWeight="Bold"
+                HorizontalAlignment="Center" VerticalAlignment="Top"
+                Margin="0,13,0,0"/>
+            
+            <StackPanel
+                HorizontalAlignment="Center" VerticalAlignment="Center"
+                Height="349" Width="350">
+                
                 <Grid>
-                    <TextBlock Text="First Name:" Foreground="AliceBlue"
-                               FontSize="18" FontWeight="Bold"
-                               HorizontalAlignment="Left" Margin="10"/>
-                    <components:TextBox Width="230" Height="30"
-                                        Text="{Binding FirstName, UpdateSourceTrigger=PropertyChanged}"
-                                        FontSize="18" 
-                                        Visibility="{Binding IsChanging, Converter={StaticResource BooleanToVisibilityConverter}}"
-                                        HorizontalAlignment="Right"/>
-                    <TextBlock Text="{Binding User.FirstName}"
-                               Width="230" Height="30"
-                               Margin="0,7,0,0"
-                               FontSize="18"
-                               Foreground="AliceBlue"
-                               Visibility="{Binding IsChanging,Converter={StaticResource InverseBooleanToVisibilityConverter}}"
-                               HorizontalAlignment="Right"/>
+
+                    <TextBlock
+                        Style="{StaticResource DefaultText}"
+                        Text="First Name:"
+                        FontSize="18" FontWeight="Bold"
+                        HorizontalAlignment="Left" Margin="10"/>
+                    
+                    <components:TextBox
+                        Width="230" Height="30"
+                        Text="{Binding FirstName, UpdateSourceTrigger=PropertyChanged}"
+                        FontSize="18" 
+                        Visibility="{Binding IsChanging,
+                            Converter={StaticResource BooleanToVisibilityConverter}}"
+                        HorizontalAlignment="Right"/>
+
+                    <TextBlock
+                        Style="{StaticResource DefaultText}"
+                        Text="{Binding User.FirstName}"
+                        Width="230" Height="30"
+                        Margin="0,7,0,0"
+                        FontSize="18"
+                        Visibility="{Binding IsChanging,
+                            Converter={StaticResource InverseBooleanToVisibilityConverter}}"
+                        HorizontalAlignment="Right"/>
+                    
                 </Grid>
+                
                 <Grid>
-                    <TextBlock Text="Last Name:" Foreground="AliceBlue"
-                               FontSize="18" FontWeight="Bold"
-                               HorizontalAlignment="Left" Margin="10"/>
-                    <components:TextBox Width="230" Height="30" Placeholder="(Required)"
-                                        Text="{Binding LastName, UpdateSourceTrigger=PropertyChanged}"
-                                        FontSize="18"
-                                        Visibility="{Binding IsChanging, Converter={StaticResource BooleanToVisibilityConverter}}"
-                                        HorizontalAlignment="Right"/>
-                    <TextBlock Text="{Binding User.LastName}"
-                               Width="230" Height="30"
-                               Margin="0,7,0,0"
-                               FontSize="18"
-                               Foreground="AliceBlue"
-                               Visibility="{Binding IsChanging,Converter={StaticResource InverseBooleanToVisibilityConverter}}"
-                               HorizontalAlignment="Right"/>
+
+                    <TextBlock
+                        Style="{StaticResource DefaultText}"
+                        Text="Last Name:"
+                        FontSize="18" FontWeight="Bold"
+                        HorizontalAlignment="Left" Margin="10"/>
+                    
+                    <components:TextBox
+                        Width="230" Height="30" Placeholder="(Required)"
+                        Text="{Binding LastName,
+                            UpdateSourceTrigger=PropertyChanged}"
+                        FontSize="18"
+                        Visibility="{Binding IsChanging,
+                            Converter={StaticResource BooleanToVisibilityConverter}}"
+                        HorizontalAlignment="Right"/>
+
+                    <TextBlock
+                        Style="{StaticResource DefaultText}"
+                        Text="{Binding User.LastName}"
+                        Width="230" Height="30"
+                        Margin="0,7,0,0"
+                        FontSize="18"
+                        Visibility="{Binding IsChanging,
+                            Converter={StaticResource InverseBooleanToVisibilityConverter}}"
+                        HorizontalAlignment="Right"/>
+                    
                 </Grid>
+                
                 <Grid>
-                    <TextBlock Text="Email:" Foreground="AliceBlue"
-                               FontSize="18" FontWeight="Bold"
-                               HorizontalAlignment="Left" Margin="10"/>
-                    <components:TextBox Width="230" Height="30"
-                                        Text="{Binding Email, UpdateSourceTrigger=PropertyChanged}"
-                                        FontSize="18"
-                                        Visibility="{Binding IsChanging, Converter={StaticResource BooleanToVisibilityConverter}}"
-                                        HorizontalAlignment="Right"/>
-                    <TextBlock Text="{Binding User.Email}"
-                               Width="230" Height="30"
-                               Margin="0,7,0,0"
-                               FontSize="18"
-                               Foreground="AliceBlue"
-                               Visibility="{Binding IsChanging,Converter={StaticResource InverseBooleanToVisibilityConverter}}"
-                               HorizontalAlignment="Right"/>
+
+                    <TextBlock
+                        Style="{StaticResource DefaultText}"
+                        Text="Email:"
+                        FontSize="18" FontWeight="Bold"
+                        HorizontalAlignment="Left" Margin="10"/>
+                    
+                    <components:TextBox
+                        Width="230" Height="30"
+                        Text="{Binding Email,
+                            UpdateSourceTrigger=PropertyChanged}"
+                        FontSize="18"
+                        Visibility="{Binding IsChanging,
+                            Converter={StaticResource BooleanToVisibilityConverter}}"
+                        HorizontalAlignment="Right"/>
+
+                    <TextBlock
+                        Style="{StaticResource DefaultText}"
+                        Text="{Binding User.Email}"
+                        Width="230" Height="30"
+                        Margin="0,7,0,0"
+                        FontSize="18"
+                        Visibility="{Binding IsChanging,
+                            Converter={StaticResource InverseBooleanToVisibilityConverter}}"
+                        HorizontalAlignment="Right"/>
+                    
                 </Grid>
+                
                 <Grid>
-                    <TextBlock Text="Gender:" Foreground="AliceBlue"
-                               FontSize="18" FontWeight="Bold"
-                               HorizontalAlignment="Left" Margin="10"/>
-                    <TextBlock Text="{Binding User.GenderKind}"
-                               Width="230" Height="30"
-                               Margin="0,7,0,0"
-                               FontSize="18"
-                               Foreground="AliceBlue"
-                               Visibility="{Binding IsChanging,Converter={StaticResource InverseBooleanToVisibilityConverter}}"
-                               HorizontalAlignment="Right"/>
-                    <ComboBox ItemsSource="{Binding GenderItems}"
-                              SelectedItem="{Binding SelectedGender, UpdateSourceTrigger=PropertyChanged}"
-                              Width="100" Height="25"
-                              Visibility="{Binding IsChanging,
-                                          Converter={StaticResource BooleanToVisibilityConverter}}"/>
+
+                    <TextBlock
+                        Style="{StaticResource DefaultText}"
+                        Text="Gender:"
+                        FontSize="18" FontWeight="Bold"
+                        HorizontalAlignment="Left" Margin="10"/>
+
+                    <TextBlock
+                        Style="{StaticResource DefaultText}"
+                        Text="{Binding User.GenderKind}"
+                        Width="230" Height="30"
+                        Margin="0,7,0,0"
+                        FontSize="18"
+                        Visibility="{Binding IsChanging,
+                            Converter={StaticResource InverseBooleanToVisibilityConverter}}"
+                        HorizontalAlignment="Right"/>
+                    
+                    <ComboBox
+                        ItemsSource="{Binding GenderItems}"
+                        SelectedItem="{Binding SelectedGender,
+                            UpdateSourceTrigger=PropertyChanged}"
+                        FontSize="18"
+                        Width="110" Height="30"
+                        Visibility="{Binding IsChanging,
+                            Converter={StaticResource BooleanToVisibilityConverter}}"/>
+                    
                 </Grid>
+                
                 <Grid>
-                    <TextBlock Text="Birthday:" Foreground="AliceBlue"
-                               FontSize="18" FontWeight="Bold"
-                               HorizontalAlignment="Left" Margin="10"/>
-                    <TextBlock Text="{Binding User.Birthday}"
-                               Width="230" Height="30"
-                               Margin="0,7,0,0"
-                               FontSize="18"
-                               Foreground="AliceBlue"
-                               Visibility="{Binding IsChanging,Converter={StaticResource InverseBooleanToVisibilityConverter}}"
-                               HorizontalAlignment="Right"/>
-                    <DatePicker VerticalAlignment="Center" 
-                                HorizontalAlignment="Center"
-                                Height="30"
-                                SelectedDate="{Binding DateOfBirth, UpdateSourceTrigger=PropertyChanged}"
-                                DisplayDateEnd="{Binding BirthDateLimit}"
-                                Margin="20,0,0,0"
-                                Visibility="{Binding IsChanging,
-                                            Converter={StaticResource BooleanToVisibilityConverter}}"
-                                Width="120"/>
-                    <Button Style="{StaticResource RoundedButton}"
-                            Width="25" Height="25"
-                            HorizontalAlignment="Right"
-                            Margin="0,0,70,0"
-                            Command="{Binding DeleteDateOfBirthCommand}"
-                            Visibility="{Binding IsChanging,
-                                        Converter={StaticResource BooleanToVisibilityConverter}}">
-                        <materialDesign:PackIcon Kind="Close" Margin="0,3,0,0"/>
+
+                    <TextBlock
+                        Style="{StaticResource DefaultText}"
+                        Text="Birthday:"
+                        FontSize="18" FontWeight="Bold"
+                        HorizontalAlignment="Left" Margin="10"/>
+
+                    <TextBlock
+                        Style="{StaticResource DefaultText}"
+                        Text="{Binding User.Birthday}"
+                        Width="230" Height="30"
+                        Margin="0,7,0,0"
+                        FontSize="18"
+                        Visibility="{Binding IsChanging,
+                            Converter={StaticResource InverseBooleanToVisibilityConverter}}"
+                        HorizontalAlignment="Right"/>
+                    
+                    <DatePicker
+                        VerticalAlignment="Center" HorizontalAlignment="Center"
+                        Height="30"
+                        BorderThickness="0"
+                        BorderBrush="Transparent"
+                        Background="Transparent"
+                        FontSize="18"
+                        SelectedDate="{Binding DateOfBirth,
+                            UpdateSourceTrigger=PropertyChanged}"
+                        DisplayDateEnd="{Binding BirthDateLimit}"
+                        Margin="20,0,0,0"
+                        Visibility="{Binding IsChanging,
+                            Converter={StaticResource BooleanToVisibilityConverter}}"/>
+                    
+                    <Button
+                        Style="{StaticResource RoundedButton}"
+                        Width="25" Height="25"
+                        HorizontalAlignment="Right"
+                        Margin="0,0,70,0"
+                        Command="{Binding DeleteDateOfBirthCommand}"
+                        Visibility="{Binding IsChanging,
+                            Converter={StaticResource BooleanToVisibilityConverter}}">
+                        
+                        <materialDesign:PackIcon
+                            Kind="Close" Margin="0,3,0,0"/>
+                        
                     </Button>
+                    
                 </Grid>
+                
                 <Grid>
-                    <TextBlock Text="Weight:" Foreground="AliceBlue"
-                               FontSize="18" FontWeight="Bold"
-                               HorizontalAlignment="Left" Margin="10"/>
-                    <components:NumberBox Width="120" Height="30"
-                                          Value="{Binding Weight, UpdateSourceTrigger=PropertyChanged}"
-                                          Unit="{Binding WeightUnit}" FontSize="18"
-                                          Visibility="{Binding IsChanging, Converter={StaticResource BooleanToVisibilityConverter}}"
-                                          HorizontalAlignment="Right"
-                                          Margin="0,0,100,0"/>
-                    <StackPanel Orientation="Horizontal"
-                                Width="120"
-                                Margin="20,0,0,0"
-                                Height="30">
-                        <TextBlock Text="{Binding User.Weight}"
-                                   FontSize="18"
-                               Margin="0,5,0,0"
-                                   Foreground="AliceBlue"
-                                   Visibility="{Binding IsChanging,Converter={StaticResource InverseBooleanToVisibilityConverter}}"
-                                   HorizontalAlignment="Center"/>
-                        <TextBlock Text="{Binding WeightUnit}"
-                               Margin="0,5,0,0"
-                                   FontSize="18"
-                                   Foreground="AliceBlue"
-                                   Visibility="{Binding IsChanging,Converter={StaticResource InverseBooleanToVisibilityConverter}}"
-                                   HorizontalAlignment="Center"/>
+
+                    <TextBlock
+                        Style="{StaticResource DefaultText}"
+                        Text="Weight:"
+                        FontSize="18" FontWeight="Bold"
+                        HorizontalAlignment="Left" Margin="10"/>
+                    
+                    <components:NumberBox
+                        Width="120" Height="30"
+                        Value="{Binding Weight,
+                            UpdateSourceTrigger=PropertyChanged}"
+                        Unit="{Binding WeightUnit}" FontSize="18"
+                        Visibility="{Binding IsChanging,
+                            Converter={StaticResource BooleanToVisibilityConverter}}"
+                        HorizontalAlignment="Right"
+                        Margin="0,0,110,0"/>
+                    
+                    <StackPanel
+                        Orientation="Horizontal"
+                        Width="120"
+                        Margin="20,0,0,0"
+                        Height="30">
+
+                        <TextBlock
+                            Style="{StaticResource DefaultText}"
+                            Text="{Binding User.Weight}"
+                            FontSize="18"
+                            Margin="0,5,0,0"
+                            Visibility="{Binding IsChanging,
+                                Converter={StaticResource InverseBooleanToVisibilityConverter}}"
+                            HorizontalAlignment="Center"/>
+
+                        <TextBlock
+                            Style="{StaticResource DefaultText}"
+                            Text="{Binding WeightUnit}"
+                            Margin="0,5,0,0"
+                            FontSize="18"
+                            Visibility="{Binding IsChanging,
+                                Converter={StaticResource InverseBooleanToVisibilityConverter}}"
+                            HorizontalAlignment="Center"/>
+                        
                     </StackPanel>
+                    
                 </Grid>
-                <Grid Margin="0,20,0,0" Height="60">
-                    <Button Content="Save" Style="{StaticResource Button}"
-                            Height="40" Margin="20,0,0,0"
-                            Visibility="{Binding IsChanging, 
-                                        Converter={StaticResource BooleanToVisibilityConverter}}"
-                            Command="{Binding SaveCommand}"
-                            HorizontalAlignment="Left"/>
-                    <Button Content="Cancel" Style="{StaticResource Button}"
-                            Height="40" Margin="0,0,20,0"
-                            Visibility="{Binding IsChanging, 
-                                        Converter={StaticResource BooleanToVisibilityConverter}}"
-                            Command="{Binding CancelCommand}"
-                            HorizontalAlignment="Right"/>
-                    <Button Content="Edit" Style="{StaticResource Button}"
-                            Visibility="{Binding IsChanging, 
-                                        Converter={StaticResource InverseBooleanToVisibilityConverter}}"
-                            Command="{Binding EditCommand}"
-                            Height="40" Margin="0,0,20,0"
-                            HorizontalAlignment="Right"/>
+                
+                <Grid
+                    Margin="0,20,0,0"
+                    Height="60">
+                    
+                    <Button
+                        Content="Save"
+                        Style="{StaticResource Button}"
+                        Height="40" Margin="20,0,0,0"
+                        Visibility="{Binding IsChanging, 
+                            Converter={StaticResource BooleanToVisibilityConverter}}"
+                        Command="{Binding SaveCommand}"
+                        HorizontalAlignment="Left"/>
+                    
+                    <Button
+                        Content="Cancel" Style="{StaticResource Button}"
+                        Height="40" Margin="0,0,20,0"
+                        Visibility="{Binding IsChanging, 
+                            Converter={StaticResource BooleanToVisibilityConverter}}"
+                        Command="{Binding CancelCommand}"
+                        HorizontalAlignment="Right"/>
+                    
+                    <Button
+                        Content="Edit" Style="{StaticResource Button}"
+                        Visibility="{Binding IsChanging, 
+                            Converter={StaticResource InverseBooleanToVisibilityConverter}}"
+                        Command="{Binding EditCommand}"
+                        Height="40" Margin="0,0,20,0"
+                        HorizontalAlignment="Right"/>
+                    
                 </Grid>
+                
             </StackPanel>
+            
         </Grid>
+        
     </Grid>
+    
 </UserControl>

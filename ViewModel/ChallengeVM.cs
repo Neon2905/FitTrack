@@ -205,7 +205,7 @@ namespace FitTrack.ViewModel
                 MessageDialog.Show($"Congratulation!!! You have reached your target to burn {this.Challenge?.Calories_Goal}{EnergyUnit}!", "Target Reached");
             }
             else
-                MessageDialog.Show($"You have burned {Burned_Calories}{EnergyUnit}! MET rate:{SelectedExercise.METof(ExerciseIntensity)} Weight:{this.Weight}{WeightUnit} Duration:{Duration}{DurationUnit}");
+                MessageDialog.Show($"You have burned {Burned_Calories} {EnergyUnit}. \nKeep going! Every bit counts toward your goal!", "Activity Registered");
             IsAddingNewActivity = false;
             Refresh();
         }

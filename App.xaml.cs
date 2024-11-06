@@ -23,40 +23,41 @@ namespace FitTrack
         /// </remarks>
         protected override void OnStartup(StartupEventArgs e)
         {
-            base.OnStartup(e);
             TestAppRunner.OnStartUp();
+            base.OnStartup(e);
 
             if (LocalStorage.DeviceId is null || !SessionDevice.Find(LocalStorage.DeviceId))
                 //Assign new registered SessionDevice               
                 LocalStorage.SessionDevice = SessionDevice.Register();
 
+            /* This section launches the application within a try block.
+             * By doing so, unexpected errors are caught to prevent the application from freezing or crashing unexpectedly.*/
+
+            //Run main app.
             try
             {
                 //Sync local device informations
                 LocalStorage.SessionDevice.SyncWithCloud();
 
-                if (LocalStorage.LoginToken is null )
-                {
-                    //Display SignIn View if doesn't have saved login
-                    new SignInWindow()
-                    { DataContext = new SignInWindowVM() }.Show();
-                    return;
+                if (LocalStorage.LoginToken != null)
+                {try
+                    {
+                        //Attempts to restore connection via login token.
+                        var user = Account.SignIn(LocalStorage.LoginToken);
+
+                        //Displays Main View
+                        new MainWindow() { DataContext = new MainWindowVM(user) }.Show();
+                    }
+                    catch (InvalidLoginCreditentialException)
+                    {
+                        //Display SignIn View if LoginToken is invalid
+                        new SignInWindow() { DataContext = new SignInWindowVM() }.Show();
+                    }
                 }
-                                
-                try
-                {
-                    //LocalStorage has a login token
-                    Account user = Account.SignIn(LocalStorage.LoginToken);
-                    //Display Main View
-                    new MainWindow()
-                    { DataContext = new MainWindowVM(user) }.Show();
-                }
-                catch (InvalidLoginCreditentialException)
-                {
-                    //Display SignIn View if LoginToken is invalid
-                    new SignInWindow()
-                    { DataContext = new SignInWindowVM() }.Show();
-                }
+
+                //Display SignIn View if doesn't have saved login
+                else
+                    new SignInWindow() { DataContext = new SignInWindowVM() }.Show();
             }
             //Report any uncaught exception
             catch (AccessDeniedException exception) { MessageDialog.Show(exception.Message, "Access Denied"); }

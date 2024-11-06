@@ -1,8 +1,8 @@
 ﻿<UserControl x:Class="FitTrack.View.ChallengeView"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:FitTrack.View"
              xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
              xmlns:components="clr-namespace:FitTrack.Components"
@@ -11,12 +11,13 @@
              d:DesignHeight="600" d:DesignWidth="700">
 
     <Grid>
+
         <Grid.RowDefinitions>
             <RowDefinition Height="11*"/>
             <RowDefinition Height="9*"/>
         </Grid.RowDefinitions>
 
-        <Border 
+        <Border
             Style="{StaticResource Card}"
             Width="200"
             Height="320"
@@ -24,314 +25,438 @@
             VerticalAlignment="Top">
 
             <Grid>
+
                 <!--No Challenge Message-->
-                <TextBlock 
+                <TextBlock
                     Text="You do not have any challenge selected"
                     HorizontalAlignment="Center"
                     VerticalAlignment="Center"
-                    Foreground="Gray"
+                    Foreground="{StaticResource InfoTextColor}"
                     Panel.ZIndex="-1"
                     FontSize="10"
-                    Visibility="{Binding HasChallenge, 
+                    Visibility="{Binding HasChallenge,
                         Converter={StaticResource InverseBooleanToVisibilityConverter}}"
                     FontWeight="Bold"/>
-                <TextBlock 
+
+                <TextBlock
+                    Style="{StaticResource DefaultText}"
                     Text="Progress"
                     VerticalAlignment="Top"
                     HorizontalAlignment="Center"
-                    Foreground="AliceBlue"
                     FontSize="20"
-                    FontWeight="Bold" 
+                    FontWeight="Bold"
                     Margin="0,20,0,0"/>
-                <lvc:Gauge 
-                    VerticalAlignment="Center" HorizontalAlignment="Center" 
-                    Foreground="AliceBlue"
-                    Value="{Binding Challenge.Progressed_Calories}" 
+
+                <lvc:Gauge
+                    Style="{StaticResource DefaultGauge}"
+                    VerticalAlignment="Center" HorizontalAlignment="Center"
+                    Value="{Binding Challenge.Progressed_Calories}"
                     InnerRadius="50"
                     From="0" To="{Binding Challenge.Calories_Goal}"
                     Width="180" Height="180"
-                    Visibility="{Binding HasChallenge, 
-                        Converter={StaticResource BooleanToVisibilityConverter}}"
-                    FromColor="#FFF8A100" 
-                    ToColor="#FF00FF22"/>
+                    Visibility="{Binding HasChallenge,
+                        Converter={StaticResource BooleanToVisibilityConverter}}"/>
+
             </Grid>
 
         </Border>
 
         <!--Challenge Control Panel-->
-        <Border 
+        <Border
             Style="{StaticResource Card}"
-            HorizontalAlignment="Center" 
+            HorizontalAlignment="Center"
             VerticalAlignment="Top"
             Width="280"
             Height="320">
 
             <Grid>
+                
                 <!--No Challenge Message-->
-                <TextBlock 
+                <TextBlock
                     Text="You do not have any challenge selected"
                     HorizontalAlignment="Center"
                     VerticalAlignment="Center"
-                    Foreground="Gray"
+                    Foreground="{StaticResource InfoTextColor}"
                     FontSize="10"
                     Panel.ZIndex="-1"
-                    Visibility="{Binding HasChallenge, 
+                    Visibility="{Binding HasChallenge,
                         Converter={StaticResource InverseBooleanToVisibilityConverter}}"
                     FontWeight="Bold"/>
+
                 <StackPanel>
+
                     <!--Register Activity Panel-->
-                    <StackPanel 
-                        Visibility="{Binding IsAddingNewActivity, 
+                    <StackPanel
+                        Visibility="{Binding IsAddingNewActivity,
                             Converter={StaticResource BooleanToVisibilityConverter}}">
 
-                        <TextBlock 
+                        <TextBlock
+                            Style="{StaticResource DefaultText}"
                             Text="REGISTER ACTIVITY"
                             HorizontalAlignment="Center"
                             Margin="0,20,0,10"
-                            Foreground="AliceBlue"
                             FontSize="20"
                             FontWeight="Bold"/>
-                        <TextBlock 
-                            Text="Choose Exercise: " 
-                            Foreground="AliceBlue"
-                            HorizontalAlignment="Center" 
+
+                        <TextBlock
+                            Style="{StaticResource DefaultText}"
+                            Text="Choose Exercise: "
+                            FontSize="13"
+                            HorizontalAlignment="Center"
                             Height="20"/>
-                        <ComboBox 
+
+                        <ComboBox
                             ItemsSource="{Binding ExerciseMenuItems}"
                             SelectedIndex="2"
-                            SelectedItem="{Binding SelectedExercise, UpdateSourceTrigger=PropertyChanged}"
-                            DisplayMemberPath="Name"
-                            Width="100" Height="20"
-                            Background="Transparent" 
-                            BorderThickness="0"
-                            Margin="0,0,0,10"/>
-                        <components:NumberBox 
-                            Value="{Binding Duration, UpdateSourceTrigger=PropertyChanged}"
+                            SelectedItem="{Binding SelectedExercise,
+                                UpdateSourceTrigger=PropertyChanged}"
+                            Width="100" Height="25"
+                            Margin="0,0,0,10">
+
+                            <ComboBox.ItemTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding Name}" />
+                                </DataTemplate>
+                            </ComboBox.ItemTemplate>
+
+                        </ComboBox>
+
+                        <components:NumberBox
+                            Value="{Binding Duration,
+                                UpdateSourceTrigger=PropertyChanged}"
                             Placeholder="Duration"
                             Unit="{Binding DurationUnit}"
-                            FontSize="15"
                             HorizontalAlignment="Center"
-                            Width="100" 
-                            Height="25" 
+                            Width="100"
+                            Height="25"
                             Margin="0,0,0,10">
+
                         </components:NumberBox>
-                        <components:NumberBox 
-                            Value="{Binding Weight, UpdateSourceTrigger=PropertyChanged}"
+
+                        <components:NumberBox
+                            Value="{Binding Weight,
+                                UpdateSourceTrigger=PropertyChanged}"
                             Placeholder="Weight"
                             Unit="{Binding WeightUnit}"
-                            FontSize="15"
                             HorizontalAlignment="Center"
                             Width="100" Height="25"
                             Margin="0,0,0,10">
+
                         </components:NumberBox>
-                        <TextBlock Text="Your Intensity:"
-                                   Foreground="AliceBlue"
-                                   HorizontalAlignment="Left"
-                                   Margin="50,0,0,10"/>
-                        <StackPanel Orientation="Vertical" Margin="80,0,0,0">
-                            <RadioButton Content="{Binding Low_MET_Expression}"
-                                         Command="{Binding LowMETCommand}"
-                                         Foreground="AliceBlue"
-                                         HorizontalAlignment="Left"
-                                         Margin="0,0,0,3"/>
-                            <RadioButton Content="{Binding Medium_MET_Expression}"
-                                         Command="{Binding MidMETCommand}"
-                                         Foreground="AliceBlue"
-                                         IsChecked="True"
-                                         HorizontalAlignment="Left"
-                                         Margin="0,0,0,3"/>
-                            <RadioButton Content="{Binding Extreme_MET_Expression}"
-                                         Command="{Binding ExtremeMETCommand}"
-                                         Foreground="AliceBlue"
-                                         HorizontalAlignment="Left"
-                                         Margin="0,0,0,3"/>
+
+                        <TextBlock
+                            Style="{StaticResource DefaultText}"
+                            Text="Your Intensity:"
+                            FontSize="12"
+                            HorizontalAlignment="Left"
+                            Margin="50,0,0,10"/>
+
+                        <StackPanel
+                            Orientation="Vertical"
+                            Margin="80,0,0,0">
+
+                            <RadioButton
+                                Content="{Binding Low_MET_Expression}"
+                                Command="{Binding LowMETCommand}"
+                                HorizontalAlignment="Left"
+                                Margin="0,0,0,3"/>
+
+                            <RadioButton
+                                Content="{Binding Medium_MET_Expression}"
+                                Command="{Binding MidMETCommand}"
+                                IsChecked="True"
+                                HorizontalAlignment="Left"
+                                Margin="0,0,0,3"/>
+
+                            <RadioButton
+                                Content="{Binding Extreme_MET_Expression}"
+                                Command="{Binding ExtremeMETCommand}"
+                                HorizontalAlignment="Left"
+                                Margin="0,0,0,3"/>
+
                         </StackPanel>
-                        <Grid Margin="10,10,10,15">
-                            <Button Content="Cancel" HorizontalAlignment="Left"
-                                    Command="{Binding CancelCommand}"
-                                    Style="{StaticResource Button}"
-                                    Width="80"
-                                    Height="40"
-                                    FontSize="10"/>
-                            <Button Content="Submit" HorizontalAlignment="Right"
-                                    Command="{Binding SubmitCommand}"
-                                    Style="{StaticResource Button}"
-                                    Width="80"
-                                    Height="40"
-                                    FontSize="10"
-                                    IsEnabled="{Binding ValidActivityEntries}"/>
+                        
+                        <Grid
+                            Margin="10,10,10,15">
+
+                            <Button
+                                Content="Cancel" HorizontalAlignment="Left"
+                                Command="{Binding CancelCommand}"
+                                Style="{StaticResource Button}"
+                                Width="80" Height="40"
+                                FontSize="10"/>
+                            
+                            <Button
+                                Content="Submit" HorizontalAlignment="Right"
+                                Command="{Binding SubmitCommand}"
+                                Style="{StaticResource Button}"
+                                Width="80" Height="40"
+                                FontSize="10"
+                                IsEnabled="{Binding ValidActivityEntries}"/>
+                            
                         </Grid>
+                        
                     </StackPanel>
 
                     <!--Challenge Info-->
-                    <StackPanel Visibility="{Binding HasChallenge, 
-                                   Converter={StaticResource BooleanToVisibilityConverter}}"
-                                HorizontalAlignment="Center" 
-                                Height="320" Width="250">
-                        <TextBlock Text="{Binding Challenge.Name}"
-                                   VerticalAlignment="Top" 
-                                   HorizontalAlignment="Center"                                   
-                                   Foreground="AliceBlue"
-                                   Margin="0,20,0,20"
-                                   FontSize="20"
-                                   FontWeight="Bold"/>
-                        <StackPanel Orientation="Horizontal">
-                            <TextBlock Text="Target:" FontSize="15" Margin="7"
-                                       FontWeight="Bold"
-                                       Foreground="AliceBlue"/>
-                            <TextBlock Text="{Binding Challenge.Calories_Goal}" FontSize="15" 
-                                       Margin="7" Foreground="AliceBlue"
-                                       FontWeight="Bold"/>
-                            <TextBlock Text="{Binding EnergyUnit}" FontSize="15" 
-                                       Margin="0,7,0,0" Foreground="AliceBlue"
-                                       FontWeight="Bold"
-                                       Visibility="{Binding HasChallenge,
-                                           Converter={StaticResource BooleanToVisibilityConverter}}"/>
-                        </StackPanel>
-                        <StackPanel Orientation="Horizontal">
-                            <TextBlock Text="Progressed:" FontSize="15" Margin="7"
-                                       FontWeight="Bold"
-                                       Foreground="AliceBlue"/>
-                            <TextBlock Text="{Binding Challenge.Progressed_Calories}" 
-                                       FontSize="15" 
-                                       FontWeight="Bold"
-                                       Margin="0,7,0,0" Foreground="AliceBlue"/>
-                        </StackPanel>
-                        <StackPanel Orientation="Horizontal">
-                            <TextBlock Text="Target Date:" FontSize="15" Margin="7" 
-                                       FontWeight="Bold"
-                                       Foreground="AliceBlue"/>
-                            <TextBlock Text="{Binding Challenge.ToReachAtDateTime}" FontSize="15" 
-                                       FontWeight="Bold"
-                                       Margin="0,7,0,0" Foreground="AliceBlue"/>
-                        </StackPanel>
-                        <StackPanel Orientation="Horizontal">
-                            <TextBlock Text="Progressed Activities:" FontSize="15" 
-                                       FontWeight="Bold"
-                                       Margin="7" Foreground="AliceBlue"/>
-                            <TextBlock Text="{Binding Challenge.Activities.Count}" FontSize="15" 
-                                       FontWeight="Bold"
-                                       Margin="0,7,0,0" Foreground="AliceBlue"/>
-                        </StackPanel>
-                        <StackPanel Orientation="Horizontal">
-                            <TextBlock Text="Last Activity:" FontSize="15" 
-                                       FontWeight="Bold"
-                                       Margin="7" Foreground="AliceBlue"/>
-                            <TextBlock Text="{Binding Challenge.LastContributedAt}" FontSize="15"
-                                       FontWeight="Bold"
-                                       Margin="0,7,0,0" Foreground="AliceBlue"/>
-                        </StackPanel>
-                        <Button Content="Add Activity"
-                                    Style="{StaticResource Button}"
-                                Height="40" Width="100"
-                                Margin="20"
-                                Command="{Binding AddActivityCommand}"
-                                Visibility="{Binding IsChallengeActive,
+                    <StackPanel 
+                        Visibility="{Binding HasChallenge,
+                            Converter={StaticResource BooleanToVisibilityConverter}}"
+                        HorizontalAlignment="Center"
+                        Height="320" Width="250">
+
+                        <TextBlock
+                            Style="{StaticResource DefaultText}"
+                            Text="{Binding Challenge.Name}"
+                            VerticalAlignment="Top"
+                            HorizontalAlignment="Center"
+                            Margin="0,20,0,20"
+                            FontSize="20"
+                            FontWeight="Bold"/>
+                        
+                        <StackPanel
+                            Orientation="Horizontal">
+
+                            <TextBlock
+                                Style="{StaticResource DefaultText}"
+                                Text="Target:"
+                                Margin="7"
+                                FontWeight="Bold"/>
+
+                            <TextBlock
+                                Style="{StaticResource DefaultText}"
+                                Text="{Binding Challenge.Calories_Goal}"
+                                Margin="7"
+                                FontWeight="Bold"/>
+
+                            <TextBlock
+                                Style="{StaticResource DefaultText}"
+                                Text="{Binding EnergyUnit}"
+                                Margin="0,7,0,0"
+                                FontWeight="Bold"
+                                Visibility="{Binding HasChallenge,
                                     Converter={StaticResource BooleanToVisibilityConverter}}"/>
-                        <Button Content="Set As Active"
-                                    Style="{StaticResource Button}"
-                                Height="40" Width="100"
-                                Margin="20"
-                                Command="{Binding SetActiveCommand}"
-                                Visibility="{Binding IsChallengeActive,
-                                    Converter={StaticResource InverseBooleanToVisibilityConverter}}"/>
+                            
+                        </StackPanel>
+                        
+                        <StackPanel Orientation="Horizontal">
+
+                            <TextBlock
+                                Style="{StaticResource DefaultText}"
+                                Text="Progressed:"
+                                Margin="7"
+                                FontWeight="Bold"/>
+
+                            <TextBlock
+                                Style="{StaticResource DefaultText}"
+                                Text="{Binding Challenge.Progressed_Calories}"
+                                FontWeight="Bold"
+                                Margin="0,7,0,0"/>
+                            
+                        </StackPanel>
+                        
+                        <StackPanel
+                            Orientation="Horizontal">
+
+                            <TextBlock
+                                Style="{StaticResource DefaultText}"
+                                Text="Target Date:"
+                                Margin="7"
+                                FontWeight="Bold"/>
+
+                            <TextBlock
+                                Style="{StaticResource DefaultText}"
+                                Text="{Binding Challenge.ToReachAtDateTime}"
+                                FontWeight="Bold"
+                                Margin="0,7,0,0"/>
+                            
+                        </StackPanel>
+                        
+                        <StackPanel
+                            Orientation="Horizontal">
+
+                            <TextBlock
+                                Style="{StaticResource DefaultText}"
+                                Text="Progressed Activities:"
+                                FontWeight="Bold"
+                                Margin="7"/>
+
+                            <TextBlock
+                                Style="{StaticResource DefaultText}"
+                                Text="{Binding Challenge.Activities.Count}"
+                                FontWeight="Bold"
+                                Margin="0,7,0,0"/>
+                            
+                        </StackPanel>
+                        
+                        <StackPanel
+                            Orientation="Horizontal">
+
+                            <TextBlock
+                                Style="{StaticResource DefaultText}"
+                                Text="Last Activity:"
+                                FontWeight="Bold"
+                                Margin="7"/>
+
+                            <TextBlock
+                                Style="{StaticResource DefaultText}"
+                                Text="{Binding Challenge.LastContributedAt}"
+                                FontWeight="Bold"
+                                Margin="0,7,0,0"/>
+                            
+                        </StackPanel>
+                        
+                        <Button
+                            Content="Add Activity"
+                            Style="{StaticResource Button}"
+                            Height="40" Width="100"
+                            Margin="20"
+                            Command="{Binding AddActivityCommand}"
+                            Visibility="{Binding IsChallengeActive,
+                                Converter={StaticResource BooleanToVisibilityConverter}}"/>
+                        
+                        <Button
+                            Content="Set As Active"
+                            Style="{StaticResource Button}"
+                            Height="40" Width="100"
+                            Margin="20"
+                            Command="{Binding SetActiveCommand}"
+                            Visibility="{Binding IsChallengeActive,
+                                Converter={StaticResource InverseBooleanToVisibilityConverter}}"/>
+                        
                     </StackPanel>
+                    
                 </StackPanel>
+                
             </Grid>
+            
         </Border>
 
         <!--Activity Report-->
-        <Border Style="{StaticResource Card}"
-                Width="200"
-                Height="320"
-                HorizontalAlignment="Right"
-                VerticalAlignment="Top">
+        <Border
+            Style="{StaticResource Card}"
+            Width="200"
+            Height="320"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Top">
 
             <Grid>
-                <TextBlock Text="Activities"
-                            VerticalAlignment="Top"
-                            HorizontalAlignment="Center"
-                            Foreground="AliceBlue"
-                            FontSize="20"
-                            FontWeight="Bold" Margin="0,20,0,0"/>
-                <TextBlock Text="Report"
-                           Foreground="AliceBlue"
-                           HorizontalAlignment="Center"
-                           VerticalAlignment="Center"
-                           Visibility="{Binding HasChallenge, 
-                                Converter={StaticResource BooleanToVisibilityConverter}}"
-                           FontSize="15"
-                           FontWeight="Medium"/>
-                <lvc:PieChart Series="{Binding PieSeriesCollection}"
-                              VerticalAlignment="Center"
-                              HorizontalAlignment="Center"
-                              InnerRadius="40"
-                              Visibility="{Binding HasChallenge, 
-                                    Converter={StaticResource BooleanToVisibilityConverter}}"
-                              Width="150"
-                              Height="150">
+
+                <TextBlock
+                    Style="{StaticResource DefaultText}"
+                    Text="Activities"
+                    VerticalAlignment="Top"
+                    HorizontalAlignment="Center"
+                    FontSize="20"
+                    FontWeight="Bold" Margin="0,20,0,0"/>
+
+                <TextBlock
+                    Style="{StaticResource DefaultText}"
+                    Text="Report"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Visibility="{Binding HasChallenge,
+                        Converter={StaticResource BooleanToVisibilityConverter}}"
+                    FontWeight="Medium"/>
+                
+                <lvc:PieChart
+                    Series="{Binding PieSeriesCollection}"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center"
+                    InnerRadius="40"
+                    Visibility="{Binding HasChallenge,
+                        Converter={StaticResource BooleanToVisibilityConverter}}"
+                    Width="150"
+                    Height="150">
+                    
                 </lvc:PieChart>
+                
                 <!--No Challenge Message-->
-                <TextBlock Text="You do not have any challenge selected"
-                           HorizontalAlignment="Center"
-                           VerticalAlignment="Center"
-                           Foreground="Gray"
-                           FontSize="10"
-                           Panel.ZIndex="-1"
-                           Visibility="{Binding HasChallenge, 
-                                Converter={StaticResource InverseBooleanToVisibilityConverter}}"
-                           FontWeight="Bold"/>
+                <TextBlock
+                    Text="You do not have any challenge selected"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Foreground="{StaticResource InfoTextColor}"
+                    FontSize="10"
+                    Panel.ZIndex="-1"
+                    Visibility="{Binding HasChallenge,
+                        Converter={StaticResource InverseBooleanToVisibilityConverter}}"
+                    FontWeight="Bold"/>
+                
             </Grid>
 
         </Border>
 
-        <Border Style="{StaticResource Card}"
-                Grid.Row="1"
-                Padding="3">
+        <Border
+            Style="{StaticResource Card}"
+            Grid.Row="1"
+            Padding="3">
+            
             <Grid>
+                
                 <!--No Challenge Message-->
-                <TextBlock Text="You do not have any challenge selected"
-                           HorizontalAlignment="Center"
-                           VerticalAlignment="Center"
-                           Foreground="Gray"
-                           FontSize="10"
-                           Panel.ZIndex="-1"
-                           Visibility="{Binding HasChallenge, 
-                                Converter={StaticResource InverseBooleanToVisibilityConverter}}"
-                           FontWeight="Bold"/>
-                <DataGrid ItemsSource="{Binding Challenge.Activities}"
-                          Style="{StaticResource DataGridStyle}"
-                          AutoGenerateColumns="False" FontWeight="Bold"
-                          IsTextSearchEnabled="True"
-                          RowHeaderWidth="0"
-                          IsReadOnly="True">
+                <TextBlock
+                    Text="You do not have any challenge selected"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Foreground="{StaticResource InfoTextColor}"
+                    FontSize="10"
+                    Panel.ZIndex="-1"
+                    Visibility="{Binding HasChallenge,
+                        Converter={StaticResource InverseBooleanToVisibilityConverter}}"
+                    FontWeight="Bold"/>
+                
+                <DataGrid
+                    ItemsSource="{Binding Challenge.Activities}"
+                    Style="{StaticResource DataGridStyle}"
+                    AutoGenerateColumns="False" FontWeight="Bold"
+                    IsTextSearchEnabled="True"
+                    RowHeaderWidth="0"
+                    IsReadOnly="True">
+                    
                     <DataGrid.Columns>
-                        <DataGridTextColumn Header="Exercise" Binding="{Binding ExerciseName}" 
-                                Width="*"
-                                HeaderStyle="{StaticResource DataGridHeaderStyle}" 
-                                CellStyle="{StaticResource DataGridCellStyle}"/>
-                        <DataGridTextColumn Header="Burned Calories" Binding="{Binding Burned_Calories}" 
-                                Width="*"
-                                HeaderStyle="{StaticResource DataGridHeaderStyle}" 
-                                CellStyle="{StaticResource DataGridCellStyle}"/>
-                        <DataGridTextColumn Header="Duration" Binding="{Binding Duration}" 
-                                Width="100"
-                                HeaderStyle="{StaticResource DataGridHeaderStyle}" 
-                                CellStyle="{StaticResource DataGridCellStyle}"/>
-                        <DataGridTextColumn Header="Contributed At" Binding="{Binding CreatedDateTime}" 
-                                Width="*"
-                                HeaderStyle="{StaticResource DataGridHeaderStyle}" 
-                                CellStyle="{StaticResource DataGridCellStyle}"/>
+                        
+                        <DataGridTextColumn
+                            Header="Exercise" Binding="{Binding ExerciseName}"
+                            Width="*"
+                            HeaderStyle="{StaticResource DataGridHeaderStyle}"
+                            CellStyle="{StaticResource DataGridCellStyle}"/>
+                        
+                        <DataGridTextColumn
+                            Header="Burned Calories" Binding="{Binding Burned_Calories}"
+                            Width="*"
+                            HeaderStyle="{StaticResource DataGridHeaderStyle}"
+                            CellStyle="{StaticResource DataGridCellStyle}"/>
+                        
+                        <DataGridTextColumn
+                            Header="Duration" Binding="{Binding Duration}"
+                            Width="100"
+                            HeaderStyle="{StaticResource DataGridHeaderStyle}"
+                            CellStyle="{StaticResource DataGridCellStyle}"/>
+                        
+                        <DataGridTextColumn
+                            Header="Contributed At" Binding="{Binding CreatedDateTime}"
+                            Width="*"
+                            HeaderStyle="{StaticResource DataGridHeaderStyle}"
+                            CellStyle="{StaticResource DataGridCellStyle}"/>
+                        
                     </DataGrid.Columns>
+                    
                 </DataGrid>
+                
             </Grid>
+            
         </Border>
 
         <!-- lvc:Gauge has last item rendering issue -->
         <!-- Made an unused last Gauge to fix it -->
         <StackPanel HorizontalAlignment="Center" Visibility="Visible" Width="0" Margin="0,243,0,67">
-            <lvc:Gauge LabelsVisibility="Collapsed" 
+            
+            <lvc:Gauge LabelsVisibility="Collapsed"
                Height="0" Width="0"/>
+            
         </StackPanel>
+        
     </Grid>
+    
 </UserControl>

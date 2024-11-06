@@ -208,15 +208,14 @@ namespace FitTrack.ViewModel
             SignUpCommand = new CloseWindowRelayCommand<Window>(SignUp);
         }
 
-        private void Login(Window window)
+        private void Login(Window Parent)
         {
             try
             {
-                Account account = Account.SignIn(Username, Password);
-
+                var account = Account.SignIn(Username, Password);
                 Window Window = new MainWindow() { DataContext = new MainWindowVM(account) };
                 Window.Show();
-                window?.Close(); 
+                Parent?.Close();
             }
             catch(InvalidLoginCreditentialException)
             {
@@ -229,21 +228,29 @@ namespace FitTrack.ViewModel
             }
         }
 
-        private void SignUp(Window window)
+        private void SignUp(Window Parent)
         {
             if (ValidateSignUpData())
             {
                 try
                 {
-                    Account user = Account.Create(NewUsername, NewPassword);
+                    var user = Account.Create(NewUsername, NewPassword);
+
                     user.Gender = Gender;
-                    if (!string.IsNullOrEmpty(Email)) user.Email = Email;
-                    if (!string.IsNullOrEmpty(FirstName)) user.FirstName = FirstName;
-                    if (!string.IsNullOrEmpty(LastName)) user.LastName = LastName;
-                    MessageDialog.Show("Account Created Successfully!","Signup Succeed");
+
+                    if (!string.IsNullOrEmpty(Email))
+                        user.Email = Email;
+
+                    if (!string.IsNullOrEmpty(FirstName))
+                        user.FirstName = FirstName;
+
+                    if (!string.IsNullOrEmpty(LastName))
+                        user.LastName = LastName;
+
+                    MessageDialog.Show("Account Created Successfully!", "Signup Succeed");
                     Window main_window = new MainWindow() { DataContext = new MainWindowVM(user) };
                     main_window.Show();
-                    window?.Close();
+                    Parent?.Close();
                 }
                 catch (ConflictUsernameException)
                 {

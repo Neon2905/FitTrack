@@ -1,0 +1,64 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf">
+
+    <SolidColorBrush x:Key="WindowTabBackgroundColor">#FF333333</SolidColorBrush>
+    <SolidColorBrush x:Key="WindowPanelBackgroundColor">#FF22252A</SolidColorBrush>
+    <SolidColorBrush x:Key="CardBackgroundColor">#272B2F</SolidColorBrush>
+    <SolidColorBrush x:Key="DialogBoxBackgroundColor">#FF111944</SolidColorBrush>
+    <SolidColorBrush x:Key="DialogBoxBorderBrush">AliceBlue</SolidColorBrush>
+    <SolidColorBrush x:Key="SignInWindowBackgroundColor">#272E2F</SolidColorBrush>
+    <SolidColorBrush x:Key="SignUpMaskBackgroundColor">#FF2D472D</SolidColorBrush>
+    <SolidColorBrush x:Key="SignInMaskBackgroundColor">#FF615836</SolidColorBrush>
+    <Thickness x:Key="DialogBoxStroke">0.5</Thickness>
+    <CornerRadius x:Key="DialogBoxCornerRadius">15</CornerRadius>
+    <CornerRadius x:Key="SigninWindowCornerRadius"></CornerRadius>
+
+    <SolidColorBrush x:Key="PrimaryTextColor">AliceBlue</SolidColorBrush>
+    <SolidColorBrush x:Key="InfoTextColor">Gray</SolidColorBrush>
+    <SolidColorBrush x:Key="WarningTextColor">Red</SolidColorBrush>
+    <SolidColorBrush x:Key="LogInErrorTextColor">#FFB35D5D</SolidColorBrush>
+
+    <SolidColorBrush x:Key="ChevronLeftIconColor">#FF515151</SolidColorBrush>
+    <SolidColorBrush x:Key="ProfileIconColor">#FF7E8286</SolidColorBrush>
+    
+    <SolidColorBrush x:Key="WelcomeScreenBackgroundColor">#FF7355B1</SolidColorBrush>
+    <SolidColorBrush x:Key="ProfileScreenBackgroundColor">#FF377132</SolidColorBrush>
+    <SolidColorBrush x:Key="ActivityScreenBackgroundColor">#FF1C336C</SolidColorBrush>
+    <SolidColorBrush x:Key="ChallengeOverviewScreenBackgroundColor">#FF91642C</SolidColorBrush>
+    
+    <SolidColorBrush x:Key="ChallengeReportGaugeBackgroundColor">#FFA7A7A7</SolidColorBrush>
+    
+    <Color x:Key="GaugeFromColor">#FFF8A100</Color>
+    <Color x:Key="GaugeToColor">#FF00FF22</Color>
+
+    <Style x:Key="DefaultText" TargetType="TextBlock">
+        <Setter Property="Foreground" Value="{StaticResource PrimaryTextColor}"/>
+        <Setter Property="FontSize" Value="15"/>
+    </Style>
+
+    <Style x:Key="Card" TargetType="Border">
+        <Setter Property="Background" Value="{StaticResource CardBackgroundColor}"/>
+        <Setter Property="CornerRadius" Value="10"/>
+    </Style>
+
+    <Style x:Key="DefaultGauge" TargetType="lvc:Gauge">
+        <Setter Property="FontWeight" Value="DemiBold"/>
+        <Setter Property="Foreground" Value="{StaticResource PrimaryTextColor}"/>
+        <Setter Property="FromColor" Value="{StaticResource GaugeFromColor}"/>
+        <Setter Property="ToColor" Value="{StaticResource GaugeToColor}"/>
+    </Style>
+
+    <Style TargetType="DatePickerTextBox">
+        <Setter Property="Foreground" Value="Black"/>
+    </Style>
+
+    <Style TargetType="RadioButton">
+        <Setter Property="Foreground" Value="{StaticResource PrimaryTextColor}"/>
+    </Style>
+
+    <Style x:Key="ComboBoxItemStyle" TargetType="ItemsPresenter">
+        <Setter Property="TextBlock.Background" Value="Blue"/>
+    </Style>
+
+</ResourceDictionary>

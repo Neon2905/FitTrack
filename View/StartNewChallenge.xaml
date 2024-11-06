@@ -9,63 +9,113 @@
              xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"    
              mc:Ignorable="d"
              d:DesignHeight="600" d:DesignWidth="700">
+    
     <Grid Width="400" Height="400">
-        <TextBlock Text="Create A New Challenge!"
-                       FontSize="20" FontWeight="Bold"
-                       Foreground="AliceBlue"
-                       VerticalAlignment="Top"
-                       HorizontalAlignment="Center"
-                       Height="30"
-                       Margin="30"/>
-        <StackPanel Width="250" VerticalAlignment="Center"
-                        HorizontalAlignment="Center">
-            <components:TextBox Text="{Binding ChallengeName, UpdateSourceTrigger=PropertyChanged}"
-                                    Width="150" FontSize="18" Height="30"
-                                    Placeholder="Challenge name"
-                                    Margin="0,20,0,20"/>
-            <StackPanel Orientation="Horizontal" VerticalAlignment="Center"
-                            HorizontalAlignment="Center" 
-                            Margin="0,0,0,10">
-                <Button Margin="5" Width="25" Height="25"
-                            Style="{StaticResource RoundedButton}"
-                            Command="{Binding DecrementCaloriesCommand}">
-                    <materialDesign:PackIcon Kind="Minus" Margin="0,3,0,0"/>
+
+        <TextBlock
+            Style="{StaticResource DefaultText}"
+            Text="Create A New Challenge!"
+            FontSize="20" FontWeight="Bold"
+            VerticalAlignment="Top" HorizontalAlignment="Center"
+            Height="30"
+            Margin="30"/>
+        
+        <StackPanel
+            Width="250"
+            VerticalAlignment="Center" HorizontalAlignment="Center">
+            
+            <components:TextBox
+                Text="{Binding ChallengeName,
+                    UpdateSourceTrigger=PropertyChanged}"
+                Width="150" Height="30"
+                FontSize="18"
+                Placeholder="Challenge name"
+                Margin="0,20,0,20"/>
+            
+            <StackPanel
+                Orientation="Horizontal"
+                VerticalAlignment="Center" HorizontalAlignment="Center"
+                Margin="0,0,0,10">
+                
+                <Button
+                    Margin="5"
+                    Width="25" Height="25"
+                    Style="{StaticResource RoundedButton}"
+                    Command="{Binding DecrementCaloriesCommand}">
+                    
+                    <materialDesign:PackIcon
+                        Kind="Minus" Margin="0,3,0,0"/>
+                    
                 </Button>
-                <components:NumberBox Value="{Binding Calories, UpdateSourceTrigger=PropertyChanged}"
-                                          Width="130" HorizontalAlignment="Center" 
-                                          FontSize="18" Height="30"
-                                          Unit="{Binding CaloriesUnit}"
-                                          Placeholder="Target"/>
-                <Button Margin="5" Width="25" Height="25"
-                            Style="{StaticResource RoundedButton}"
-                            Command="{Binding IncrementCaloriesCommand}">
-                    <materialDesign:PackIcon Kind="Plus" Margin="0,3,0,0"/>
+                
+                <components:NumberBox
+                    Value="{Binding Calories,
+                        UpdateSourceTrigger=PropertyChanged}"
+                    Width="130"
+                    HorizontalAlignment="Center"
+                    FontSize="18"
+                    Height="30"
+                    Unit="{Binding CaloriesUnit}"
+                    Placeholder="Target"/>
+                
+                <Button
+                    Margin="5"
+                    Width="25" Height="25"
+                    Style="{StaticResource RoundedButton}"
+                    Command="{Binding IncrementCaloriesCommand}">
+                    
+                    <materialDesign:PackIcon
+                        Kind="Plus" Margin="0,3,0,0"/>
+                    
                 </Button>
+                
             </StackPanel>
-            <TextBlock Text="Select your target date"
-                           FontWeight="DemiBold"
-                           FontSize="15" Foreground="AliceBlue"
-                           HorizontalAlignment="Center"/>
+
+            <TextBlock
+                Style="{StaticResource DefaultText}"
+                Text="Select your target date"
+                FontWeight="DemiBold"
+                HorizontalAlignment="Center"/>
+            
             <StackPanel Orientation="Horizontal">
-                <DatePicker FontSize="15" IsTodayHighlighted="True" Width="150" Height="25" 
-                                FontWeight="DemiBold"
-                            Foreground="Black" HorizontalAlignment="Center" 
-                            SelectedDate="{Binding GoalDate, UpdateSourceTrigger=PropertyChanged}"
-                            DisplayDateStart="{Binding Today}"
-                            Margin="50,10,0,10"/>
-                <Button Style="{StaticResource RoundedButton}"
-                            Width="25" Height="25" Command="{Binding DeleteDateCommand}">
-                    <materialDesign:PackIcon Kind="Close" Margin="0,3,0,0"/>
+                
+                <DatePicker
+                    FontSize="18"
+                    IsTodayHighlighted="True"
+                    Background="Transparent"
+                    BorderBrush="Transparent"
+                    BorderThickness="0"
+                    FontWeight="DemiBold"
+                    Foreground="Black"
+                    HorizontalAlignment="Center"
+                    SelectedDate="{Binding GoalDate,
+                        UpdateSourceTrigger=PropertyChanged}"
+                    DisplayDateStart="{Binding Today}"
+                    Margin="50,10,0,10"/>
+                
+                <Button
+                    Style="{StaticResource RoundedButton}"
+                    Width="25" Height="25"
+                    Command="{Binding DeleteDateCommand}">
+                    
+                    <materialDesign:PackIcon
+                        Kind="Close" Margin="0,3,0,0"/>
+                    
                 </Button>
+                
             </StackPanel>
-            <Button Command="{Binding SubmitCommand}"
-                        Style="{StaticResource Button}"
-                        IsEnabled="{Binding HasValidInputs}"
-                        Height="45" Width="100" 
-                        VerticalAlignment="Top"
-                        Margin="0,10,0,10">
-                <TextBlock Text="Submit"/>
-            </Button>
+
+            <Button
+                Command="{Binding SubmitCommand}"
+                Style="{StaticResource Button}"
+                IsEnabled="{Binding HasValidInputs}"
+                Height="40" Width="100"
+                VerticalAlignment="Top"
+                Margin="0,10,0,10"
+                Content="Submit"/>
+
         </StackPanel>
+        
     </Grid>
+    
 </UserControl>

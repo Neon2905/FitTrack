@@ -14,47 +14,48 @@
         Icon="Resources/Icon.png"
         WindowStartupLocation="CenterScreen"
         Background="Transparent">
-    <Border CornerRadius="10"
-            ClipToBounds="True">
+    
+    <Border
+        CornerRadius="10"
+        ClipToBounds="True">
+        
         <Grid>
+            
             <Grid.RowDefinitions>
                 <RowDefinition Height="30"/>
                 <RowDefinition Height="620"/>
             </Grid.RowDefinitions>
 
             <!-- Window Tab -->
-            <Border CornerRadius="10,10,0,0"
-                    Background="#FF333333"
-                    Grid.ColumnSpan="3"
-                    MouseDown="MouseDrag">
+            <Border
+                CornerRadius="10,10,0,0"
+                Background="{StaticResource WindowTabBackgroundColor}"
+                Grid.ColumnSpan="3"
+                MouseDown="MouseDrag">
 
-                <StackPanel 
-                        HorizontalAlignment="Right"
-                        Orientation="Horizontal">
+                <StackPanel
+                    HorizontalAlignment="Right"
+                    Orientation="Horizontal">
 
                     <Button
-                            FontSize="20"
-                            Style="{StaticResource WindowMinimizeButton}"
-                            Width="30"  
-                            Foreground="White"
-                            Click="Minimize">
+                        FontSize="20"
+                        Style="{StaticResource WindowMinimizeButton}"
+                        Width="30"
+                        Click="Minimize">
 
                         <materialDesign:PackIcon Kind="Minimize"/>
 
                     </Button>
 
                     <Button
-                            FontSize="20"
-                            Style="{StaticResource WindowCloseButton}"
-                            Width="30" 
-                            Foreground="White"
-                            Background="Transparent"
-                            Click="Close">
+                        FontSize="20"
+                        Style="{StaticResource WindowCloseButton}"
+                        Width="30"
+                        Click="Close">
 
-                        <materialDesign:PackIcon 
-                                Kind="Close" 
-                                Width="20" 
-                                Height="20"/>
+                        <materialDesign:PackIcon
+                            Kind="Close"
+                            Width="20" Height="20"/>
 
                     </Button>
 
@@ -63,81 +64,118 @@
             </Border>
 
             <!--Window Panel-->
-            <Border Grid.Row="1"
-                    CornerRadius="0,0,10,10"
-                    Background="#FF22252A">
-                <Grid Background="Transparent">
+            <Border
+                Grid.Row="1"
+                CornerRadius="0,0,10,10"
+                Background="{StaticResource WindowPanelBackgroundColor}">
+                
+                <Grid>
+                    
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="150"/>
                         <ColumnDefinition Width="Auto"/>
                     </Grid.ColumnDefinitions>
 
                     <!--Menu Tab-->
-                    <Border Style="{StaticResource Card}" 
-                            Margin="10,10,0,10">
+                    <Border
+                        Style="{StaticResource Card}"
+                        Margin="10,10,0,10">
 
                         <StackPanel>
 
-                            <Button Style="{StaticResource BlankButton}"
-                                    Command="{Binding HomeCommand}"
-                                    Width="80"
-                                    Margin="25">
-                                <Image Source="Resources/Icon.png"
-                                       Height="80"/>
+                            <Button
+                                Style="{StaticResource BlankButton}"
+                                Command="{Binding HomeCommand}"
+                                Width="80"
+                                Margin="25">
+                                
+                                <Image
+                                    Source="Resources/Icon.png"
+                                    Height="80"/>
+                                
                             </Button>
 
-                            <RadioButton Style="{StaticResource MenuButton}"
-                                         Command="{Binding HomeCommand}"
-                                         IsChecked="{Binding DashboardIsChecked}">
-                                <TextBlock Text="Dashboard"
-                                           Style="{StaticResource MenuText}"/>
+                            <RadioButton
+                                Style="{StaticResource MenuButton}"
+                                Command="{Binding HomeCommand}"
+                                IsChecked="{Binding DashboardIsChecked}">
+                                
+                                <TextBlock
+                                    Text="Dashboard"
+                                    Style="{StaticResource MenuText}"/>
+                                
                             </RadioButton>
 
-                            <RadioButton Style="{StaticResource MenuButton}"
-                                         Command="{Binding ChallengeCommand}"
-                                         IsChecked="{Binding ChallengeIsChecked}">
-                                <TextBlock Text="Challenge" 
-                                           Style="{StaticResource MenuText}"/>
+                            <RadioButton
+                                Style="{StaticResource MenuButton}"
+                                Command="{Binding ChallengeCommand}"
+                                IsChecked="{Binding ChallengeIsChecked}">
+                                
+                                <TextBlock
+                                    Text="Challenge"
+                                    Style="{StaticResource MenuText}"/>
+                                
                             </RadioButton>
-                            <RadioButton Style="{StaticResource MenuButton}"
-                                         Command="{Binding ProgressCommand}"
-                                         IsChecked="{Binding ProgressIsChecked}">
-                                <TextBlock Text="Progress" 
-                                           Style="{StaticResource MenuText}"/>
-                            </RadioButton>
-
-                            <RadioButton Style="{StaticResource MenuButton}"
-                                         Command="{Binding NewChallengeCommand}"
-                                         IsChecked="{Binding NewChallengeIsChecked}">
-                                <TextBlock Text="New Challenge" 
-                                           Style="{StaticResource MenuText}"/>
-                            </RadioButton>
-
-                            <RadioButton Style="{StaticResource MenuButton}"
-                                         Command="{Binding SettingCommand}"
-                                         IsChecked="{Binding SettingIsChecked}">
-                                <TextBlock Text="Setting" 
-                                           Style="{StaticResource MenuText}"/>
+                            
+                            <RadioButton
+                                Style="{StaticResource MenuButton}"
+                                Command="{Binding ProgressCommand}"
+                                IsChecked="{Binding ProgressIsChecked}">
+                                
+                                <TextBlock
+                                    Text="Progress"
+                                    Style="{StaticResource MenuText}"/>
+                                
                             </RadioButton>
 
-                            <Button Content="Logout"
-                                    Margin="0,30,0,0"
-                                    Style="{StaticResource Button}"
-                                    Command="{Binding LogoutCommand}"
-                                    CommandParameter="{Binding RelativeSource={RelativeSource AncestorType={x:Type Window}}}"
-                                    Height="40"/>
+                            <RadioButton
+                                Style="{StaticResource MenuButton}"
+                                Command="{Binding NewChallengeCommand}"
+                                IsChecked="{Binding NewChallengeIsChecked}">
+                                
+                                <TextBlock
+                                    Text="New Challenge"
+                                    Style="{StaticResource MenuText}"/>
+                                
+                            </RadioButton>
+
+                            <RadioButton
+                                Style="{StaticResource MenuButton}"
+                                Command="{Binding SettingCommand}"
+                                IsChecked="{Binding SettingIsChecked}">
+                                
+                                <TextBlock
+                                    Text="Setting"
+                                    Style="{StaticResource MenuText}"/>
+                                
+                            </RadioButton>
+
+                            <Button
+                                Content="Logout"
+                                Margin="0,30,0,0"
+                                Style="{StaticResource Button}"
+                                Command="{Binding LogoutCommand}"
+                                CommandParameter="{Binding RelativeSource={RelativeSource AncestorType={x:Type Window}}}"
+                                Height="40"/>
+                            
                         </StackPanel>
+                        
                     </Border>
 
                     <!--Content View-->
-                    <ContentControl Grid.Column="1"
-                                    Content="{Binding CurrentView}" 
-                                    Margin="10"
-                                    Height="600" Width="700"
-                                    HorizontalAlignment="Center"
-                                    VerticalAlignment="Center"/>
+                    <ContentControl
+                        Grid.Column="1"
+                        Content="{Binding CurrentView}"
+                        Margin="10"
+                        Height="600" Width="700"
+                        HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    
                 </Grid>
+                
             </Border>
+            
         </Grid>
+        
     </Border>
+    
 </Window>

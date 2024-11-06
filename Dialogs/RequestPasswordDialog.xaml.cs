@@ -1,4 +1,5 @@
 ﻿using System.Windows;
+using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media;
 
@@ -22,19 +23,28 @@ namespace FitTrack.Dialogs
         public RequestPasswordDialog(string title = null, string message = null)
         {
             InitializeComponent();
+            SubmitButton.IsEnabled = false;     //Disabled by default.
+            PasswordBox.PreviewKeyUp += PasswordBox_PreviewKeyUp;
+
             this.Owner = Application.Current.MainWindow; // Set owner to main window
             if (title != null) TitleBlock.Text = title;
             if (message != null) MessageBlock.Text = message;
         }
 
+        private void PasswordBox_PreviewKeyUp(object sender, KeyEventArgs e)
+        {
+            //Disable Submit button when password is empty.
+            SubmitButton.IsEnabled = !string.IsNullOrEmpty(PasswordBox.Password);
+        }
+
         private void Submit(object sender, RoutedEventArgs e)
         {
-            if (!string.IsNullOrEmpty(PasswordBox.Password))
-            {
-                Password = PasswordBox.Password;
-                this.DialogResult = true; // Set dialog result to true
-                this.Close(); // Close the dialog
-            }
+            if (string.IsNullOrEmpty(PasswordBox.Password)) 
+                return;
+
+            Password = PasswordBox.Password;
+            this.DialogResult = true; // Set dialog result to true
+            this.Close(); // Close the dialog
         }
 
         private void Close(object sender, RoutedEventArgs e)

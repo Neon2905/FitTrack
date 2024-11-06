@@ -22,9 +22,18 @@ namespace FitTrack.Dialogs
         public RequestUserTextInputDialog(string title = null, string message = null)
         {
             InitializeComponent();
-            this.Owner = Application.Current.MainWindow; // Set owner to main window
+            SubmitButton.IsEnabled = false;
+            Input.TextChanged += Input_TextChanged;
+
+            this.Owner = Application.Current.MainWindow;    // Set owner to main window
             if (title != null) TitleBlock.Text = title;
             if (message != null) MessageBlock.Text = message;
+        }
+
+        private void Input_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e)
+        {
+            //Disable Submit button when input is empty.
+            SubmitButton.IsEnabled = !string.IsNullOrEmpty(Input.Text);
         }
 
         private void Submit(object sender, RoutedEventArgs e)
@@ -32,15 +41,15 @@ namespace FitTrack.Dialogs
             if (!string.IsNullOrEmpty(Input.Text))
             {
                 UserInput = Input.Text;
-                this.DialogResult = true; // Set dialog result to true
-                this.Close(); // Close the dialog
+                this.DialogResult = true;       // Set dialog result to true
+                this.Close();       // Close the dialog
             }
         }
 
         private void Close(object sender, RoutedEventArgs e)
         {
-            this.DialogResult = false; // Set dialog result to false
-            this.Close(); // Close the dialog
+            this.DialogResult = false;      // Set dialog result to false
+            this.Close();       // Close the dialog
         }
 
         private void MouseDrag(object sender, MouseButtonEventArgs e)

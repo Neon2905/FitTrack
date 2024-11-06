@@ -293,18 +293,15 @@ namespace FitTrack.Database
             if (Id is null || Id is 0)
                 throw new InvalidEntityAccessException($"Update-Operation failed due to illegal Id value:{Id}.", null, AttributeToUpdate);
 
-            //Converts value to allow null values to update
-            if (Value is null)
-                Value = string.Empty;
-
             if(Value is string && Value.ToString().Contains("'"))
                 //Handles syntax errors of Sql with single quote ( ' )
                 Value = Value.ToString().Replace("'","''");
 
-            string Query = $"UPDATE {EntityNameOf(AttributeToUpdate)} SET {NameOf(AttributeToUpdate)} = '{Value}' WHERE id = '{Id}'";
+            //When the value to be updated is null, query will directly sets database attribute to null.
+            string Query = $"UPDATE {EntityNameOf(AttributeToUpdate)} SET {NameOf(AttributeToUpdate)} = " + (Value != null ? $"'{Value}'" : "NULL") + $" WHERE id = '{Id}'";
 
             //Update only when value is not same as that of database
-            if (!GetById(AttributeToUpdate, Id).Equals(Value.ToString()))
+            if (!GetById(AttributeToUpdate, Id).Equals(Value?.ToString()))
             {
                 //Update data Query
                 ExecuteNonQuery(Query);

@@ -7,16 +7,17 @@
              xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              mc:Ignorable="d" 
              d:DesignHeight="600" d:DesignWidth="700">
+    
     <Grid Margin="6">
-        <TextBlock Text="Setting"
-                       Foreground="AliceBlue"
-                       FontSize="25"
-                       FontWeight="Bold"
-                       Width="100"
-                       Height="40"
-                       VerticalAlignment="Top"
-                       HorizontalAlignment="Left"
-                       Margin="20,20,0,0"/>
+
+        <TextBlock
+            Style="{StaticResource DefaultText}"
+            Text="Setting"
+            FontSize="25"
+            FontWeight="Bold"
+            Width="100" Height="40"
+            VerticalAlignment="Top" HorizontalAlignment="Left"
+            Margin="20,20,0,0"/>
 
         <StackPanel Margin="20,80,20,20">
 
@@ -26,7 +27,7 @@
 
                 <Grid>
 
-                    <TextBlock 
+                    <TextBlock
                         Style="{StaticResource SettingName}"
                         Text="Personal Profile"/>
 
@@ -43,7 +44,7 @@
 
                 <Grid>
 
-                    <TextBlock 
+                    <TextBlock
                         Style="{StaticResource SettingName}"
                         Text="Change Username"/>
 
@@ -54,13 +55,13 @@
 
             </Button>
 
-            <Button 
+            <Button
                 Style="{StaticResource SettingButton}"
                 Command="{Binding ChangePasswordCommand}">
 
                 <Grid>
 
-                    <TextBlock 
+                    <TextBlock
                         Style="{StaticResource SettingName}"
                         Text="Change Password"/>
 
@@ -71,13 +72,13 @@
 
             </Button>
 
-            <Button 
+            <Button
                 Style="{StaticResource SettingButton}"
                 Command="{Binding AccountLogCommand}">
 
                 <Grid>
 
-                    <TextBlock 
+                    <TextBlock
                         Style="{StaticResource SettingName}"
                         Text="Login History"/>
 
@@ -88,79 +89,86 @@
 
             </Button>
 
-            <Button 
+            <Button
                 Style="{StaticResource SettingButton}">
 
                 <Grid>
 
-                    <TextBlock 
+                    <TextBlock
                         Style="{StaticResource SettingName}"
                         Text="Weight as kg"/>
 
-                    <ToggleButton HorizontalAlignment="Right"
-                                      Margin="0,0,10,0" 
-                                      IsChecked="{Binding IsMetric, UpdateSourceTrigger=PropertyChanged}"
-                                      Style="{StaticResource ToggleButton}"
-                                      Command=""/>
-
-                </Grid>
-
-            </Button>
-
-            <Button 
-                Style="{StaticResource SettingButton}">
-
-                <Grid>
-
-                    <TextBlock 
-                        Style="{StaticResource SettingName}"
-                        Text="Duration in Hour"/>
-
-                    <ToggleButton HorizontalAlignment="Right"
-                                      Margin="0,0,10,0"
-                                      IsChecked="{Binding DurationInHour, UpdateSourceTrigger=PropertyChanged}"
-                                      Style="{StaticResource ToggleButton}"/>
-
-                </Grid>
-
-            </Button>
-
-            <Button 
-                Style="{StaticResource SettingButton}">
-
-                <Grid>
-
-                    <TextBlock 
-                        Style="{StaticResource SettingName}"
-                        Text="Use KCalories"/>
-
-                    <ToggleButton 
+                    <ToggleButton
                         HorizontalAlignment="Right"
                         Margin="0,0,10,0"
-                        IsChecked="{Binding IsKCalories, UpdateSourceTrigger=PropertyChanged}"
+                        IsChecked="{Binding IsMetric,
+                            UpdateSourceTrigger=PropertyChanged}"
                         Style="{StaticResource ToggleButton}"/>
 
                 </Grid>
 
             </Button>
 
-            <Button 
+            <Button
+                Style="{StaticResource SettingButton}">
+
+                <Grid>
+
+                    <TextBlock
+                        Style="{StaticResource SettingName}"
+                        Text="Duration in Hour"/>
+
+                    <ToggleButton
+                        HorizontalAlignment="Right"
+                        Margin="0,0,10,0"
+                        IsChecked="{Binding DurationInHour,
+                            UpdateSourceTrigger=PropertyChanged}"
+                        Style="{StaticResource ToggleButton}"/>
+
+                </Grid>
+
+            </Button>
+
+            <Button
+                Style="{StaticResource SettingButton}">
+
+                <Grid>
+
+                    <TextBlock
+                        Style="{StaticResource SettingName}"
+                        Text="Use KCalories"/>
+
+                    <ToggleButton
+                        HorizontalAlignment="Right"
+                        Margin="0,0,10,0"
+                        IsChecked="{Binding IsKCalories,
+                            UpdateSourceTrigger=PropertyChanged}"
+                        Style="{StaticResource ToggleButton}"/>
+
+                </Grid>
+
+            </Button>
+
+            <Button
                 Style="{StaticResource SettingButton}"
                 Command="{Binding DeleteAccountCommand}"
                 CommandParameter="{Binding RelativeSource={RelativeSource AncestorType={x:Type Window}}}">
 
                 <Grid>
 
-                    <TextBlock 
+                    <TextBlock
                         Style="{StaticResource SettingName}"
                         Text="Delete Account"/>
 
-                    <materialDesign:PackIcon 
+                    <materialDesign:PackIcon
                         Style="{StaticResource SettingMenuIcon}"/>
 
                 </Grid>
 
             </Button>
+            
         </StackPanel>
+        
     </Grid>
+    
 </UserControl>

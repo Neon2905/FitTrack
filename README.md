@@ -1,4 +1,4 @@
-<h1>FitTrack Application (Version 1.0.1.2)</h1>
+<h1>FitTrack Application (Version 1.0.2.2)</h1>
 
 Overview
 ========
@@ -6,6 +6,9 @@ FitTrack is a fitness tracking application designed to help athletes monitor the
 Defaults: the following accounts are implemented for test purpose.<br/>
 [username, password] -> ['admin','admin'], ['user','Password'].
 
+Version History
+===============
+v1.0.2.2: Cleans up and improves performance of the application for maintainablity and development. Mainly revised *.xaml for cleaner code.
 
 Project Structure
 =================

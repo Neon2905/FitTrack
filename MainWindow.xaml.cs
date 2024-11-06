@@ -2,6 +2,8 @@
 using FitTrack.Dialogs;
 using System;
 using System.Diagnostics;
+using System.Threading;
+using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Input;
 using System.Windows.Media;
@@ -38,17 +40,18 @@ namespace FitTrack
             if (e.LeftButton == MouseButtonState.Pressed)
                 this.DragMove();
         }
-        private void MainWindow_Loaded(object sender, RoutedEventArgs e)
+        private async void MainWindow_Loaded(object sender, RoutedEventArgs e)
         {
-            //PlayStartupSong();
+            await Task.Run(() => PlayStartupSong());
+            // The startup song is currently disabled to respect user preferences and avoid unnecessary interruptions.
         }
 
         private void PlayStartupSong()
         {
             MediaPlayer mediaPlayer;
             mediaPlayer = new MediaPlayer();
-            mediaPlayer.Open(new Uri("")); // Adjust the path to audio file
-            mediaPlayer.Play();
+            mediaPlayer.Open(new Uri("Resources/start-up.mp3", UriKind.Relative));
+            //mediaPlayer.Play(); /* Uncomment this line to enable the startup sound. */
         }
     }
 }

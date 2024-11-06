@@ -7,7 +7,7 @@ using System.Windows.Input;
 
 namespace FitTrack.ViewModel
 {
-    class ProfileVM: ViewModelBase
+    class ProfileVM : ViewModelBase
     {
         public Account User { get; private set; }
 
@@ -57,18 +57,18 @@ namespace FitTrack.ViewModel
         public string Email
         {
             get => email;
-            set 
+            set
             {
                 email = value;
                 OnPropertyChanged();
             }
         }
 
-        private readonly ObservableCollection<string> genderItems = new ObservableCollection<string>() { "Male", "Female", "Other"};
+        private readonly ObservableCollection<string> genderItems = new ObservableCollection<string>() { "Male", "Female", "Other" };
         public ObservableCollection<string> GenderItems
         {
             get => genderItems;
-            set { /*blank*/ }
+            set { /*Dummy-Code*/ }
         }
 
         private string selectedGender;
@@ -112,7 +112,7 @@ namespace FitTrack.ViewModel
         public ICommand CancelCommand { get; }
         public ICommand SaveCommand { get; }
         public ICommand DeleteDateOfBirthCommand { get; }
-        
+
         public ProfileVM(Account User)
         {
             this.User = User;
@@ -122,7 +122,7 @@ namespace FitTrack.ViewModel
             EditCommand = new RelayCommand(Edit);
             CancelCommand = new RelayCommand(() => IsChanging = false);
             SaveCommand = new RelayCommand(Save);
-            DeleteDateOfBirthCommand = new RelayCommand( ()=> DateOfBirth = null);
+            DeleteDateOfBirthCommand = new RelayCommand(() => DateOfBirth = null);
 
             DateOfBirth = User.DateOfBirth;
         }
@@ -138,24 +138,35 @@ namespace FitTrack.ViewModel
 
         private void Save()
         {
-            if (!string.IsNullOrEmpty(LastName))
+            if (string.IsNullOrEmpty(LastName))
             {
-                try
-                {
-                    User.FirstName = FirstName;
-                    User.LastName = LastName;
-                    User.Email = Email;
-                    User.GenderKind = SelectedGender;
-                    User.DateOfBirth = DateOfBirth;
-                    User.Weight = Weight;
-                    OnPropertyChanged(nameof(User));
-                    IsChanging = false;
-                    MessageDialog.Show("Changes to personal profile has been saved.");
-                }
-                catch (Exception ex) { MessageDialog.Show(ex.Message, "Error"); }
-            }
-            else
                 MessageDialog.Show("Last Name is required.");
+                return;
+            }
+
+            if (DateOfBirth > BirthDateLimit)
+            {
+                MessageDialog.Show("Please enter a valid date of birth.", "Invalid Entry");
+                return;
+            }
+
+            //Proceed Profile Change
+            try
+            {
+                User.FirstName = FirstName;
+                User.LastName = LastName;
+                User.Email = Email;
+                User.GenderKind = SelectedGender;
+                User.DateOfBirth = DateOfBirth;
+                User.Weight = Weight;
+                OnPropertyChanged(nameof(User));
+            }
+            catch (Exception ex) { MessageDialog.Show(ex.Message, "Error"); }
+            finally
+            {
+                IsChanging = false;
+                MessageDialog.Show("Changes to personal profile has been saved.", "Changes Saved");
+            }
         }
     }
 }

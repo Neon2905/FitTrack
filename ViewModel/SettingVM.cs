@@ -1,4 +1,4 @@
-﻿ using FitTrack.Core;
+﻿using FitTrack.Core;
 using FitTrack.Dialogs;
 using FitTrack.Model;
 using System;
@@ -43,11 +43,11 @@ namespace FitTrack.ViewModel
         public SettingVM(Account user)
         {
             this.User = user;
-            EditPersonalProfileCommand = new RelayCommand(()=> EventAggregator.Publish(new ChangeViewMessage(new ProfileVM(User))));
+            EditPersonalProfileCommand = new RelayCommand(() => EventAggregator.Publish(new ChangeViewMessage(new ProfileVM(User))));
             ChangeUsernameCommand = new RelayCommand(ChangeViewToChangeUsernameView);
             ChangePasswordCommand = new RelayCommand(ChangeViewToChangePasswordView);
             DeleteAccountCommand = new CloseWindowRelayCommand<Window>(DeleteAccount);
-            AccountLogCommand = new RelayCommand(()=> EventAggregator.Publish(new ChangeViewMessage(new SignInHistoryVM(User))));
+            AccountLogCommand = new RelayCommand(() => EventAggregator.Publish(new ChangeViewMessage(new SignInHistoryVM(User))));
         }
 
         private void ChangeViewToChangePasswordView()
@@ -79,49 +79,57 @@ namespace FitTrack.ViewModel
         private void DeleteAccount(Window window)
         {
             var PasswordDialog = new RequestPasswordDialog();
+
             //First, request password
             bool? result = PasswordDialog.ShowDialog();
-            if (result == true)
+
+            if (result != true)
+                return;
+
+            if (!User.Authenticate(PasswordDialog.Password))
             {
-                if (User.Authenticate(PasswordDialog.Password))
-                {
-                    var ConfirmText = "Delete My Account";
-                    var ConfirmAccountDeletion = new RequestUserTextInputDialog("Confirm Deletion", $"Please enter the following text to procced account deletion: '{ConfirmText}'");
-                    //Confirm action by making user type {ConfirmText} correctly
-                    bool? deletionConfirmation = ConfirmAccountDeletion.ShowDialog();
-                    if (deletionConfirmation == true)
-                    {
-                        if (ConfirmAccountDeletion.UserInput.Equals(ConfirmText))
-                        {
-                            //Last Confirmation
-                            if (ConfirmationDialog.Show("Are you sure you want to delete your account? This can never be undone!", "Confirm Action") == true)
-                            {
-                                try
-                                {
-                                    User.Delete(PasswordDialog.Password);
-                                }
-                                catch(Exception exception)
-                                {
-                                    MessageDialog.Show(exception.Message,"An Error Occured");
-                                    return;
-                                }
+                MessageDialog.Show("Your password was incorrect.");
+                return;
+            }
 
-                                MessageDialog.Show("Your Account was deleted Successfully.");
+            var ConfirmText = "Delete My Account";
+            var ConfirmAccountDeletion = new RequestUserTextInputDialog("Confirm Deletion", $"Please enter the following text to procced account deletion: '{ConfirmText}'");
+            //Confirm action by making user type {ConfirmText} correctly
+            bool? deletionConfirmation = ConfirmAccountDeletion.ShowDialog();
 
-                                LocalStorage.LoginToken = string.Empty;
+            if (deletionConfirmation != true)
+                return;
 
-                                SignInWindow SigninWindow = new SignInWindow() { DataContext = new SignInWindowVM() };
-                                SigninWindow.Show();
-                                window.Close();
-                            }
-                        }
-                        else
-                            MessageDialog.Show("The text you entered was incorrect.", "Incorrect Input");
-                    }
-                        
-                }
-                else
-                    MessageDialog.Show("Your password was incorrect.");
+            //Check User-Text-Input
+            if (!ConfirmAccountDeletion.UserInput.Equals(ConfirmText))
+            {
+                MessageDialog.Show("The text you entered was incorrect.", "Incorrect Input");
+                return;
+            }
+
+            //Last Confirmation
+            if (ConfirmationDialog.Show("Are you sure you want to delete your account? This can never be undone!", "Confirm Action") != true)
+                return;
+
+            //Finally proceed to delete
+            try
+            {
+                User.Delete(PasswordDialog.Password);
+            }
+            catch (Exception exception)
+            {
+                MessageDialog.Show(exception.Message, "An Error Occured");
+                return;
+            }
+            finally
+            {
+                MessageDialog.Show("Your Account was deleted Successfully.");
+
+                LocalStorage.LoginToken = string.Empty;
+
+                SignInWindow SigninWindow = new SignInWindow() { DataContext = new SignInWindowVM() };
+                SigninWindow.Show();
+                window.Close();
             }
         }
     }

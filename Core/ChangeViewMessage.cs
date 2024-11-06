@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace FitTrack.Core
+﻿namespace FitTrack.Core
 {   
      /// <summary>
      /// Represents a message for changing the view in the application.

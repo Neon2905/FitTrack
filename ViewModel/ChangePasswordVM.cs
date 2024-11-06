@@ -3,7 +3,6 @@ using System.Windows.Input;
 using FitTrack.Model;
 using FitTrack.Utilities;
 using FitTrack.Exceptions;
-using System.Windows;
 using FitTrack.Dialogs;
 
 namespace FitTrack.ViewModel
@@ -67,7 +66,7 @@ namespace FitTrack.ViewModel
         public ChangePasswordVM(Account User)
         {
             this.User = User;
-            NavigateSettingCommand = new RelayCommand(() => EventAggregator.Publish(new ChangeViewMessage(new SettingVM(User)) ) );
+            NavigateSettingCommand = new RelayCommand(() => EventAggregator.Publish(new ChangeViewMessage(new SettingVM(User))));
             SubmitCommand = new RelayCommand(ChangePassword);
         }
 
@@ -76,22 +75,30 @@ namespace FitTrack.ViewModel
             if (NewPasswordIsAllowed())
             {
                 //Check if new password does not match original password
-                if (!User.Authenticate(NewPassword)) 
+                if (User.Authenticate(NewPassword))
                 {
-                    //Confirms user to change password
-                    if (ConfirmationDialog.Show($"Are you sure you want to change your password?") == true)
-                    {
-                        try
-                        {
-                            User.ChangePassword(NewPassword, LocalStorage.LoginToken, Database.AuthenticationMethod.ByLoginToken);
-                            MessageDialog.Show("Your password has changed successfully!", "Success");
-                            EventAggregator.Publish(new ChangeViewMessage(new SettingVM(User)));
-                        }
-                        catch (AccessDeniedException e) { MessageDialog.Show(e.Message); return; }
-                    }
-                }
-                else
                     MessageDialog.Show("New password cannot be your old password.", "Cannot change password.");
+                    return;
+                }
+
+                //Confirms user to change password
+                if (ConfirmationDialog.Show($"Are you sure you want to change your password?") != true)
+                    return;
+
+                //Proceed password change
+                try
+                {
+                    User.ChangePassword(NewPassword, LocalStorage.LoginToken, Database.AuthenticationMethod.ByLoginToken);
+                }
+                catch (AccessDeniedException e)
+                {
+                    MessageDialog.Show(e.Message); return;
+                }
+                finally
+                {
+                    MessageDialog.Show("Your password has changed successfully!", "Success");
+                    EventAggregator.Publish(new ChangeViewMessage(new SettingVM(User)));
+                }
             }
         }
 

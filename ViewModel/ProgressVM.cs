@@ -91,14 +91,19 @@ namespace FitTrack.ViewModel
         private void SetSelectedChallengeAsActive()
         {
             if (this.SelectedChallenge.GoalAlreadyReached)
-                MessageDialog.Show("Cannot activate completed challenge.", "Challenge Cannot Be Activated");
-            else if (this.SelectedChallenge.Expired)
-                MessageDialog.Show("Sorry, you cannot activate expired challenges. Try new challenge instead!", "Challenge Cannot Be Activated");
-            else
             {
-                User.ActiveChallenge = this.SelectedChallenge;
-                EventAggregator.Publish(new ChangeViewMessage(new ChallengeVM(User)));
+                MessageDialog.Show("Cannot activate completed challenge.", "Challenge Cannot Be Activated");
+                return;
             }
+            if (this.SelectedChallenge.Expired)
+            {
+                MessageDialog.Show("Sorry, you cannot activate expired challenges. Try new challenge instead!", "Challenge Cannot Be Activated");
+                return;
+            }
+            
+            //Finally Set Active
+            User.ActiveChallenge = this.SelectedChallenge;
+            EventAggregator.Publish(new ChangeViewMessage(new ChallengeVM(User)));
         }
 
         private void DeleteSelectedChallenge()

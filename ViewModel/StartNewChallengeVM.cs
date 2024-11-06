@@ -72,7 +72,14 @@ namespace FitTrack.ViewModel
 
         private void CreateChallenge()
         {
+            if(GoalDate?.Date < Today.Date)
+            {
+                MessageDialog.Show($"The target date cannot be set before today's date: {Today:dd-MMM-yyyy}","Invalid Entry");
+                return;
+            }
+
             var NewChallenge = User.CreateChallenge(this.calories, ChallengeName , GoalDate);
+
             MessageDialog.Show($"Your challenge '{NewChallenge.Name}' is now registered.","Challenge Created");
             EventAggregator.Publish(new ChangeViewMessage(new ProgressVM(user) { SelectedChallenge = NewChallenge}));
         }
