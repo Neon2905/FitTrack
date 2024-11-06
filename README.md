@@ -34,20 +34,31 @@ Utilities<br/>
 Purpose: Helper classes for various operations, including unit conversions (e.g., imperial to metric).<br/>
 
 
-Helper Classes
-==============
-LocalStorage.cs: Handles locally saved user settings.<br/>
-Rules.cs: Stores predefined rules, such as allowed password lengths.<br/>
-SystemInfo.cs: Retrieves necessary system information.<br/>
-TestAppRunner.cs: Provides methods to simulate application startup and exit events for testing purposes.<br/>
+# Helper Classes
 
-Note: In case of database initiation or reset, use DB.cs under Database.<br/>
+- **LocalStorage.cs**: Manages locally stored user settings.
+- **Rules.cs**: Contains predefined rules, such as permissible password lengths.
+- **SystemInfo.cs**: Retrieves essential system information for application use.
+- **TestAppRunner.cs**: Provides utility methods to simulate application startup and exit events, primarily for testing purposes.
 
-Important: This project is for educational and learning purposes only and is intended to demonstrate the fundamental concepts of software development, including interface design, data management and user interaction.<br/>
-Interface design and user-experience may not meet the standards of a commercial project. Features may be basic or incomplete, and performance optimization is not effectively maintained.<br/>
-Total Hours spent on Research, Development, Debug, and Testing: 210 hours (Approximately 43 days)
+**Note**: For database initialization or reset, refer to the `DB.cs` class in the **Database** folder.
 
+---
 
-Contact
-=======
-For any assistant or questions concerned, contact: tpshine1234@gmail.com.
+## Important Information
+
+This project is designed primarily for educational and learning purposes. It demonstrates fundamental software development concepts, such as interface design, data management, and user interaction. 
+
+Please note:
+- The interface design and user experience may not align with the standards of a commercial-grade project.
+- Some features may be basic or incomplete.
+- Performance optimization has not been a primary focus.
+
+**Total Hours Spent on Research, Development, Debugging, and Testing**: 210 hours (approximately 43 days)
+
+---
+
+## Contact
+
+- For ongoing development updates, visit the GitHub repository: [FitTrack GitHub Repository](https://github.com/Neon2905/FitTrack.git)
+- For inquiries or assistance, reach out via email: [Aurthor](mailto:tpshine1234@gmail.com)
