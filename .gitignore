@@ -60,8 +60,5 @@ StyleCop.Cache
 appsettings.json
 appsettings.Development.json
 
-# Ignore temporary files created by design mode in WPF projects
-**/*.designer.cs
-
 # Ignore static resources (if dynamically generated in the build process)
 StaticResources/
