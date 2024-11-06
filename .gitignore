@@ -1,0 +1,67 @@
+# Ignore Visual Studio specific files
+.vscode/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore build results
+bin/
+obj/
+Debug/
+Release/
+
+# Ignore .NET-specific files
+project.lock.json
+project.fragment.lock.json
+*.pidb
+*.log
+*.mdb
+*.opendb
+*.pdb
+*.cache
+*.ilk
+*.obj
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.csproj.user
+*.userprefs
+
+# Ignore NuGet packages
+*.nupkg
+packages/
+# Uncomment if needed, for any .NET Standard or cross-platform projects
+# .NET Standard
+.project.json
+.global.json
+
+# Ignore Rider IDE-specific files
+.idea/
+*.sln.iml
+
+# Ignore local configurations
+*.local
+
+# Ignore publish output
+publish/
+PublishProfiles/
+
+# Ignore Resharper files
+_ReSharper*/
+*.DotSettings.user
+
+# Ignore StyleCop
+StyleCop.Cache
+
+# Ignore configuration and settings files
+appsettings.json
+appsettings.Development.json
+
+# Ignore temporary files created by design mode in WPF projects
+**/*.designer.cs
+
+# Ignore static resources (if dynamically generated in the build process)
+StaticResources/
