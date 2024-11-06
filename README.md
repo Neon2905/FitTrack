@@ -1,38 +1,40 @@
-<h1>FitTrack Application (Version 1.0.2.2)</h1>
+# FitTrack Application (Version 1.0.2.2)
 
-Overview
-========
-FitTrack is a fitness tracking application designed to help athletes monitor their activities and caloric burn. The project includes various components organized into specific files and directories.<br/>
-Defaults: the following accounts are implemented for test purpose.<br/>
-[username, password] -> ['admin','admin'], ['user','Password'].
+## Overview
 
-Version History
-===============
-v1.0.2.2: Cleans up and improves performance of the application for maintainablity and development. Mainly revised *.xaml for cleaner code.
+FitTrack is a fitness tracking application designed to help athletes monitor their activities and caloric burn. The project includes various components organized into specific files and directories.
 
-Project Structure
-=================
-Core<br/>
-Purpose: Contains crucial classes and core functionalities essential for the application.<br/>
+**Defaults:** The following accounts are implemented for testing purposes:  
+- **[username, password]** -> ['admin', 'admin'], ['user', 'Password'].
 
-Components<br/>
-Purpose: Customized user controls such as PasswordBox.xaml are located here.<br/>
+## Version History
 
-Converters<br/>
-Purpose: Used by Views to convert data types, like converting Boolean values to visibility in the UI.<br/>
+- **v1.0.2.2**: Cleans up and improves application performance for better maintainability and development. Primarily focused on revising `*.xaml` files for cleaner code.
 
-Database<br/>
-Purpose: Contains logic classes responsible for backend service interactions.<br/>
+## Project Structure
 
-Dialogs<br/>
-Purpose: Custom message boxes and UI dialog elements are defined here.<br/>
+- **Core**  
+  _Purpose_: Contains essential classes and core functionalities crucial for the application.
+  
+- **Components**  
+  _Purpose_: Includes customized user controls, such as `PasswordBox.xaml`.
+  
+- **Converters**  
+  _Purpose_: Used by Views to convert data types, such as converting Boolean values to visibility in the UI.
 
-Styles<br/>
-Purpose: Resource dictionaries that define styles and theming for the application's Views.<br/>
+- **Database**  
+  _Purpose_: Contains logic classes responsible for backend service interactions.
 
-Utilities<br/>
-Purpose: Helper classes for various operations, including unit conversions (e.g., imperial to metric).<br/>
+- **Dialogs**  
+  _Purpose_: Defines custom message boxes and UI dialog elements.
 
+- **Styles**  
+  _Purpose_: Contains resource dictionaries that define styles and theming for the application's Views.
+
+- **Utilities**  
+  _Purpose_: Helper classes for various operations, including unit conversions (e.g., imperial to metric).
+
+---
 
 # Helper Classes
 
