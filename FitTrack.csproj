@@ -73,7 +73,7 @@
     <StartupObject>FitTrack.App</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>FitTrack-Icon.ico</ApplicationIcon>
+    <ApplicationIcon>Resources\FitTrack-Icon.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>false</SignAssembly>
