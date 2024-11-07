@@ -62,5 +62,5 @@ Please note:
 
 ## Contact
 
-- For ongoing development updates, visit the GitHub repository: [FitTrack GitHub Repository](https://github.com/Neon2905/FitTrack.git)
-- For inquiries or assistance, reach out via email: [Aurthor](mailto:tpshine1234@gmail.com)
+- For ongoing development updates, visit [FitTrack GitHub Repository](https://github.com/Neon2905/FitTrack.git)
+- For inquiries or assistance, reach out [Aurthor](mailto:tpshine1234@gmail.com)
