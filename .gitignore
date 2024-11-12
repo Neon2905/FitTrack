@@ -7,8 +7,8 @@
 *.sln.docstates
 
 # Ignore local altered database_log
-Database_log
-Database
+Database/Database_log.ldf
+Database/Database.mdf
 
 # Ignore build results
 bin/

@@ -1,5 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 
-Database -diff
-Database_log -diff
+Database/Database.mdf -diff
+Database/Database_log.ldf -diff
