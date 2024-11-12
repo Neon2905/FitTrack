@@ -6,6 +6,10 @@
 *.userosscache
 *.sln.docstates
 
+# Ignore local altered database_log
+database_log.ldf
+database.mdf
+
 # Ignore build results
 bin/
 obj/
