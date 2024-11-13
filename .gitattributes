@@ -1,6 +1,2 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-
-#Database/Database.mdf -diff
-#Database/Database_log.ldf -diff
-Database/Decoy.txt -diff
