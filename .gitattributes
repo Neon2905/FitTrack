@@ -3,3 +3,4 @@
 
 #Database/Database.mdf -diff
 #Database/Database_log.ldf -diff
+Database/Decoy.txt -diff
