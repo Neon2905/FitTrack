@@ -9,7 +9,7 @@
 # Ignore local altered database_log
 Database/Database_log.ldf
 Database/Database.mdf
-Database/Decoy.txt
+Database/*.txt
 
 # Ignore build results
 bin/
